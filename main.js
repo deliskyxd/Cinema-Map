@@ -63,6 +63,7 @@ const popupOverlay = new Overlay({
     element: document.getElementById('popup'),
     positioning: 'bottom-center',
     stopEvent: false,
+    backgroundColor: 'rgba(0,0,0,0.8)',
     offset: [0, -50],
 });
 
