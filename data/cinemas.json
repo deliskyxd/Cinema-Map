@@ -1,0 +1,775 @@
+{
+    "cinemas": [
+        {
+            "name": "Helios Bełchatów",
+            "address": "ul.Kolejowa 6, Bełchatów",
+            "contact": {
+                "phone": "+48 44 715 95 60",
+                "email": "belchatow@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/37,Belchatow/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 51.3535140708787,
+                "longitude": 19.376050568701626
+            }
+        },
+        {
+            "name": "Helios Białystok Alfa",
+            "address": "ul. Świętojańska 15, Białystok",
+            "contact": {
+                "phone": "+48 85 741 13 56",
+                "email": "alfabialystok@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/26,Bialystok/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 53.125620296039685,
+                "longitude": 23.169040091508897
+            }
+        },
+        {
+            "name": "Helios Białystok Biała",
+            "address": "ul. Czesława Miłosza 2, Białystok",
+            "contact": {
+                "phone": "+48 85 710 91 72",
+                "email": "bialystok@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/6,Bialystok/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 53.12231763353874,
+                "longitude": 23.177372572722625
+            }
+        },
+        {
+            "name": "Helios Białystok Jurowiecka",
+            "address": "ul. Jurowiecka 1, Białystok",
+            "contact": {
+                "phone": "+48 85 871 01 14",
+                "email": "bialystok.jurowiecka@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/46,Bialystok/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 53.13682289758407,
+                "longitude": 23.162460048608864
+            }
+        },
+        {
+            "name": "Helios Bielsko-Biała",
+            "address": "ul. Mostowa 5, Bielsko-Biała",
+            "contact": {
+                "phone": "+48 33 498 70 12",
+                "email": "bielsko@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/7,Bielsko-Biala/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 49.82745621898707,
+                "longitude": 19.04967177980713
+            }
+        },
+        {
+            "name": "Helios Bydgoszcz",
+            "address": "ul. Fordońska 141, Bydgoszcz",
+            "contact": {
+                "phone": "+48 52 581 00 63",
+                "email": "bydgoszcz@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/38,Bydgoszcz/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 53.12593879791866,
+                "longitude": 18.067248002362426
+            }
+        },
+        {
+            "name": "Helios Gdańsk Forum",
+            "address": "Targ Sienny 7, Gdańsk",
+            "contact": {
+                "phone": "+48 58 732 96 07",
+                "email": "gdansk.forum@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/58,Gdansk/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 54.34846690167877,
+                "longitude": 18.644202064718133
+            }
+        },
+        {
+            "name": "Helios Gdańsk Alfa",
+            "address": "ul. Kołobrzeska 41C, Gdańsk",
+            "contact": {
+                "phone": "+48 58 767 99 82",
+                "email": "gdansk@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/2,Gdansk/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 54.404192572607286,
+                "longitude": 18.5866502443354
+            }
+        },
+        {
+            "name": "Helios Gdańsk Metropolia",
+            "address": "ul. Kilińskiego 4, Gdańsk",
+            "contact": {
+                "phone": "+48 58 731 13 96",
+                "email": "gdansk.metropolia@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/49,Gdansk/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 54.38274130256126,
+                "longitude": 18.605643436555503
+            }
+        },
+        {
+            "name": "Helios Dąbrowa Górnicza",
+            "address": "ul. Jana III Sobieskiego 6, Dąbrowa Górnicza",
+            "contact": {
+                "phone": "+48 32 262 32 19",
+                "email": "dabrowa@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/27,Dabrowa-Gornicza/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 50.327649035633165,
+                "longitude": 19.182274958903243
+            }
+        },
+        {
+            "name": "Helios Gdynia",
+            "address": "ul. Kazimierza Górskiego 2, Gdynia",
+            "contact": {
+                "phone": "+48 58 779 00 01",
+                "email": "gdynia@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/42,Gdynia/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 54.5050430092195,
+                "longitude": 18.53197873261705
+            }
+        },
+        {
+            "name": "Helios Gniezno",
+            "address": "ul. Pałucka 2, Gniezno",
+            "contact": {
+                "phone": "+48 61 426 66 19",
+                "email": "gniezno@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/9,Gniezno/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 52.561063486990086,
+                "longitude": 17.612547353413003
+            }
+        },
+        {
+            "name": "Helios Gorzów Wielkopolski",
+            "address": "Al. Konstytucji 3 Maja 102, Gorzów Wielkopolski",
+            "contact": {
+                "phone": "+48 95 737 27 37",
+                "email": "gorzow@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/10,Gorzow-Wielkopolski/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 52.73105117411271,
+                "longitude": 15.224719083948406
+            }
+        },
+        {
+            "name": "Helios Grudziądz",
+            "address": "ul. Chełmińska 4, Grudziądz",
+            "contact": {
+                "phone": "+48 56 643 12 13",
+                "email": "grudziadz@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/32,Grudziadz/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 53.48439312964071,
+                "longitude": 18.747650627941585
+            }
+        },
+        {
+            "name": "Helios Jelenia Góra",
+            "address": "Al. Jana Pawła II 51, elenia Góra",
+            "contact": {
+                "phone": "+48 75 769 38 65",
+                "email": "jelenia.gora@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/45,Jelenia-Gora/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 50.922159591763496,
+                "longitude": 15.763085060166201
+            }
+        },
+        {
+            "name": "Helios Kalisz",
+            "address": "ul. Górnośląska 82, Kalisz",
+            "contact": {
+                "phone": "+48 62 761 18 67",
+                "email": "kalisz@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/40,Kalisz/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 51.7442874799184,
+                "longitude": 18.070156828236243
+            }
+        },
+        {
+            "name": "Helios Katowice",
+            "address": "ul. Kościuszki 229, Katowice",
+            "contact": {
+                "phone": "+48 32 721 20 70",
+                "email": "katowice@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/51,Katowice/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 50.223955385064286,
+                "longitude": 18.98771066993626
+            }
+        },
+        {
+            "name": "Helios Kędzierzyn-Koźle",
+            "address": "Al. Armii Krajowej 38, Kędzierzyn-Koźle",
+            "contact": {
+                "phone": "+48 77 545 83 36",
+                "email": "kedzierzyn@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/34,Kedzierzyn-Kozle/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 50.34209364936955,
+                "longitude": 18.19106578354544
+            }
+        },
+        {
+            "name": "Helios Kielce",
+            "address": "ul. Świętokrzyska 20, Kielce",
+            "contact": {
+                "phone": "+48 41 332 13 30",
+                "email": "kielce@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/13,Kielce/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 50.88051972326799,
+                "longitude": 20.64768284083923
+            }
+        },
+        {
+            "name": "Helios Konin",
+            "address": "ul. Paderewskiego 8, Konin",
+            "contact": {
+                "phone": "+48 63 242 02 67",
+                "email": "konin@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/14,Konin/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 52.238404071991454,
+                "longitude": 18.259646868740067
+            }
+        },
+        {
+            "name": "Helios Koszalin",
+            "address": "ul. Jana Pawła II 20, Koszalin",
+            "contact": {
+                "phone": "+48 94 711 01 67",
+                "email": "koszalin@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/68,Koszalin/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 54.206943239819026,
+                "longitude": 16.185775278922357
+            }
+        },
+        {
+            "name": "Helios Krosno",
+            "address": "ul. Bieszczadzka 29, Krosno",
+            "contact": {
+                "phone": "+48 13 495 12 50",
+                "email": "krosno@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/55,Krosno/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 49.67713010054,
+                "longitude": 21.77613533871067
+            }
+        },
+        {
+            "name": "Helios Legionowo",
+            "address": "Piłsudskiego 31C, Legionowo",
+            "contact": {
+                "phone": "+48 22 206 38 12",
+                "email": "legionowo@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/61,Legionowo/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 52.396487556051085,
+                "longitude": 20.933348947145888
+            }
+        },
+        {
+            "name": "Helios Legnica",
+            "address": "ul. Najświętszej Marii Panny 9, Legnica",
+            "contact": {
+                "phone": "+48 76 862 00 80",
+                "email": "legnica@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/30,Legnica/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 51.209485324657734,
+                "longitude": 16.16433739326696
+            }
+        },
+        {
+            "name": "Helios Lubin",
+            "address": "ul. Generała Władysława Sikorskiego 20, Lubin",
+            "contact": {
+                "phone": "+48 76 724 97 90",
+                "email": "lubin@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/31,Lubin/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 51.39402893877838,
+                "longitude": 16.205964236593726
+            }
+        },
+        {
+            "name": "Helios Łomża",
+            "address": "al. Legionów 46, Łomża",
+            "contact": {
+                "phone": "+48 86 224 14 06",
+                "email": "lomza@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/67,Lomza/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 53.17296520909119,
+                "longitude": 22.067008587110223
+            }
+        },
+        {
+            "name": "Helios Łódź",
+            "address": "Al. Politechniki 1, Łódź",
+            "contact": {
+                "phone": "+48 42 299 92 72",
+                "email": "lodz.sukcesja@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/47,Lodz/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 51.74974957854736,
+                "longitude": 19.44845429940128
+            }
+        },
+        {
+            "name": "Helios Nowy Sącz",
+            "address": "ul. Lwowska 80, Nowy Sącz",
+            "contact": {
+                "phone": "+48 18 440 11 73",
+                "email": "nowy.sacz@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/39,Nowy-Sacz/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 49.62397222099489,
+                "longitude": 20.706033526862875
+            }
+        },
+        {
+            "name": "Helios Olsztyn",
+            "address": "Al. Piłsudskiego 16, Olsztyn",
+            "contact": {
+                "phone": "+48 89 535 20 00",
+                "email": "olsztyn@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/16,Olsztyn/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 53.77711758782555,
+                "longitude": 20.482800511881003
+            }
+        },
+        {
+            "name": "Helios Opole",
+            "address": "Wrocławska 152/154, Opole",
+            "contact": {
+                "phone": "+48 77 543 01 29",
+                "email": "opole.karolinka@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/66,Opole/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 50.681610469904875,
+                "longitude": 17.883255114554984
+            }
+        },
+        {
+            "name": "Helios Opole Solaris",
+            "address": "Pl. Kopernika 17, Opole",
+            "contact": {
+                "phone": "+48 77 402 50 30",
+                "email": "opole@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/17,Opole/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 50.67051852973646,
+                "longitude": 17.926130821033922
+            }
+        },
+        {
+            "name": "Helios Ostrów Wielkopolski",
+            "address": "ul. Kaliska 120, Ostrów Wielkopolski",
+            "contact": {
+                "phone": "+48 62 590 25 27",
+                "email": "ostrow.wielkopolski@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/65,Ostrow-Wielkopolski/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 51.659367151931036,
+                "longitude": 17.84848600371626
+            }
+        },
+        {
+            "name": "Helios Pabianice",
+            "address": "ul. Grobelna 8, Pabianice",
+            "contact": {
+                "phone": "+48 42 288 19 76",
+                "email": "pabianice@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/60,Pabianice/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 51.66076326749611,
+                "longitude": 19.358502432172184
+            }
+        },
+        {
+            "name": "Helios Piła",
+            "address": "Al. Powst. Wielkopolskich 99, Piła",
+            "contact": {
+                "phone": "+48 67 349 14 16",
+                "email": "pila@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/28,Pila/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 53.15860509730956,
+                "longitude": 16.756921327721226
+            }
+        },
+        {
+            "name": "Helios Piotrków Trybunalski",
+            "address": "ul. Słowackiego 123, Piotrków Trybunalski",
+            "contact": {
+                "phone": "+48 44 715 91 55",
+                "email": "piotrkow@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/19,Piotrkow-Trybunalski/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 51.411402739134196,
+                "longitude": 19.66739843071053
+            }
+        },
+        {
+            "name": "Helios Płock",
+            "address": "ul. Wyszogrodzka 144, Płock",
+            "contact": {
+                "phone": "+48 24 363 34 46",
+                "email": "plock@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/29,Plock/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 52.534932718369795,
+                "longitude": 19.75717812375217
+            }
+        },
+        {
+            "name": "Helios Poznań",
+            "address": "ul. Pleszewska 1, Poznań",
+            "contact": {
+                "phone": "+48 61 622 72 97",
+                "email": "poznan@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/50,Poznan/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 52.397633597482546,
+                "longitude": 16.956290002662204
+            }
+        },
+        {
+            "name": "Helios Przemyśl",
+            "address": "ul. Wojciecha Brudzewskiego 1, Przemyśl",
+            "contact": {
+                "phone": "+48 16 733 16 02",
+                "email": "przemysl@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/52,Przemysl/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 49.790810150841395,
+                "longitude": 22.78321289870589
+            }
+        },
+        {
+            "name": "Helios Radom",
+            "address": "ul. Poniatowskiego 5, Radom",
+            "contact": {
+                "phone": "+48 48 340 07 89",
+                "email": "radom@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/20,Radom/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 51.39055196434273,
+                "longitude": 21.151998371702287
+            }
+        },
+        {
+            "name": "Helios Rzeszów Galeria Rzeszów",
+            "address": "Al. Piłsudskiego 44, Rzeszów",
+            "contact": {
+                "phone": "+48 17 777 12 90",
+                "email": "galeriarzeszow@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/36,Rzeszow/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 50.04185527883409,
+                "longitude": 21.998100661258473
+            }
+        },
+        {
+            "name": "Helios Rzeszów Powstańców W-wy",
+            "address": "Al. Powstańców Warszawy 14, Rzeszów",
+            "contact": {
+                "phone": "+48 17 854 00 64",
+                "email": "rzeszow@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/21,Rzeszow/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 50.019116968082734,
+                "longitude": 21.990691782208824
+            }
+        },
+        {
+            "name": "Helios Siedlce",
+            "address": "ul. Piłsudskiego 74, Siedlce",
+            "contact": {
+                "phone": "+48 25 786 35 80",
+                "email": "siedlce@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/43,Siedlce/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 52.16904413968986,
+                "longitude": 22.269439015594813
+            }
+        },
+        {
+            "name": "Helios Sosnowiec",
+            "address": "ul. Modrzejowska 32b, Sosnowiec",
+            "contact": {
+                "phone": "+48 32 363 14 14",
+                "email": "sosnowiec@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/22,Sosnowiec/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 50.27547531452034,
+                "longitude": 19.13193933558235
+            }
+        },
+        {
+            "name": "Helios Stalowa Wola",
+            "address": "ul. Fryderyka Chopina 42, Stalowa Wola",
+            "contact": {
+                "phone": "+48 15 306 11 36",
+                "email": "stalowa.wola@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/56,Stalowa-Wola/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 50.584336970158795,
+                "longitude": 22.064505363846038
+            }
+        },
+        {
+            "name": "Helios Starachowice",
+            "address": "ul. Ks. Kardynała Stefana Wyszyńskiego 14, Starachowice",
+            "contact": {
+                "phone": "+48 41 262 97 05",
+                "email": "starachowice@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/44,Starachowice/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 51.0364981340241,
+                "longitude": 21.087213427486994
+            }
+        },
+        {
+            "name": "Helios Szczecin CHR Kupiec",
+            "address": "ul. Bolesława Krzywoustego 9-10, Szczecin",
+            "contact": {
+                "phone": "+48 91 485 12 36",
+                "email": "szczecin@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/23,Szczecin/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 53.42662541981596,
+                "longitude": 14.542421371164693
+            }
+        },
+        {
+            "name": "Helios Szczecin Outlet Park",
+            "address": "ul. Andrzeja Struga 42, Szczecin",
+            "contact": {
+                "phone": "+48 91 810 67 60",
+                "email": "szczecin.outletpark@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/35,Szczecin/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 53.38034755818751,
+                "longitude": 14.671247736743219
+            }
+        },
+        {
+            "name": "Helios Tczew",
+            "address": "ul. Pomorska 1, Tczew",
+            "contact": {
+                "phone": "+48 58 777 26 17",
+                "email": "tczew@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/33,Tczew/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 54.09638902300392,
+                "longitude": 18.787588514850242
+            }
+        },
+        {
+            "name": "Helios Tomaszów Mazowiecki",
+            "address": "ul. Warszawska 1, Tomaszów Mazowiecki",
+            "contact": {
+                "phone": "+48 44 737 01 47",
+                "email": "tomaszow@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/53,Tomaszow-Mazowiecki/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 51.53446337752163,
+                "longitude": 20.008136792951788
+            }
+        },
+        {
+            "name": "Helios Warszawa Blue City",
+            "address": "Aleje Jerozolimskie 179, Warszawa",
+            "contact": {
+                "phone": "+48 22 206 38 17",
+                "email": "warszawa.bluecity@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/57,Warszawa/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 52.21249910307101,
+                "longitude": 20.955633117398957
+            }
+        },
+        {
+            "name": "Helios Wołomin",
+            "address": "ul. Geodetów 2, Wołomin",
+            "contact": {
+                "phone": "+48 22 212 54 14",
+                "email": "wolomin@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/54,Wolomin/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 52.35653688037137,
+                "longitude": 21.258070971164692
+            }
+        },
+        {
+            "name": "Helios Wrocław Aleja Bielany",
+            "address": "ul. Czekoladowa 7-9, Bielany Wrocławskie, Kobierzyce",
+            "contact": {
+                "phone": "+48 71 712 10 42",
+                "email": "wroclaw.bielany@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/48,Wroclaw/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 51.048852242373556,
+                "longitude": 16.95993069514578
+            }
+        },
+        {
+            "name": "Helios Wrocław Magnolia Park",
+            "address": "ul. Legnicka 58, Wrocław",
+            "contact": {
+                "phone": "+48 71 355 53 54",
+                "email": "wroclaw.legnicka@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/3,Wroclaw/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 51.11819102658211,
+                "longitude": 16.987191275309165
+            }
+        },
+        {
+            "name": "Helios Żory",
+            "address": "ul. Katowicka 10, Żory",
+            "contact": {
+                "phone": "+48 32 750 60 24",
+                "email": "zory@helios.pl"
+            },
+            "schedule_link": "https://www.helios.pl/64,Zory/Repertuar/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 50.045247689342105,
+                "longitude": 18.703396741533773
+            }
+        },
+        {
+            "name": "Multikino Gdańsk",
+            "address": "al. Zwycięstwa 14, Gdańsk",
+            "contact": {
+                "phone": "+48 54 23 03 631",
+                "email": "gdansk@multikino.pl"
+            },
+            "schedule_link": "https://multikino.pl/repertuar/gdansk/",
+            "imax_technology": false,
+            "location": {
+                "latitude": 54.37212236607634,
+                "longitude": 18.627158613036855
+            }
+        }
+    ]
+}
+

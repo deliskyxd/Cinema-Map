@@ -10,3 +10,19 @@ html, body {
   bottom: 0;
   width: 100%;
 }
+#h1 {
+    color: #ffffff;
+}
+
+.ol-popup{
+  width: 300px;
+  height: 250px;
+  background-color: #1f1f1f; 
+}
+
+#popup{
+    color: #ffffff;
+    border-radius: 30px;
+    border: 10px solid #000000;
+    padding: 5px;
+}
