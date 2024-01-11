@@ -47,4 +47,4 @@ map.addLayer(cinemaLayer);
 createCinemaPoints(map, cinemaLayer, jsonFilePath);
 createPopup(map);
 
-
+console.log("test");
