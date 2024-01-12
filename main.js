@@ -54,8 +54,16 @@ function toggleLayer(layerName) {
     : map.addLayer(cinemaLayer);
 }
 
-initializeMap()
-  .then(() => {
-    //toggleLayer("helios");
-  })
-  .catch((error) => console.error("Error initializing map:", error));
+initializeMap().catch((error) =>
+  console.error("Error initializing map:", error)
+);
+
+document
+  .getElementById("toggleCinemaCity")
+  .addEventListener("click", () => toggleLayer("cinemacity"));
+document
+  .getElementById("toggleHelios")
+  .addEventListener("click", () => toggleLayer("helios"));
+document
+  .getElementById("toggleMultikino")
+  .addEventListener("click", () => toggleLayer("multikino"));
