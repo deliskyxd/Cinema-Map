@@ -771,6 +771,608 @@
                 "latitude": 54.37212236607634,
                 "longitude": 18.627158613036855
             }
+        },
+        {
+            "name": "Multikino Biała Podlaska",
+            "address": "ul. Brzeska 21, Biała Podlaska",
+            "contact": {
+                "phone": "+48 41 267 23 87",
+                "email": "bialapodlaska@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/biala-podlaska",
+            "imax_technology": false,
+            "location": {
+                "latitude": 52.034403463238654,
+                "longitude":  23.123035141024296
+            }
+        },
+        {
+            "name": "Multikino Bydgoszcz",
+            "address": "ul. Marszałka Focha 48, Bydgoszcz",
+            "contact": {
+                "phone": "+48 41 267 23 70",
+                "email": "bydgoszcz@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/bydgoszcz",
+            "imax_technology": false,
+            "location": {
+                "latitude": 53.12616554316124,
+                "longitude": 17.989407199939517
+            }
+        },
+        {
+            "name": "Multikino Czechowice-Dziedzice",
+            "address": "ul. Legionów 83. Czechowice-Dziedzice",
+            "contact": {
+                "phone": "+48 41 26 72 368",
+                "email": "czechowicedziedzice@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/czechowice-dziedzice",
+            "imax_technology": false,
+            "location": {
+                "latitude": 49.912481536638005,
+                "longitude": 18.997366171164693
+            }
+        },
+        {
+            "name": "Multikino Elbląg",
+            "address": "ul. płk. Stanisława Dąbka 152",
+            "contact": {
+                "phone": "+48 41 267 23 71",
+                "email": "elblag@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/elblag",
+            "imax_technology": false,
+            "location": {
+                "latitude": 54.185897570703744,
+                "longitude": 19.406303971164693
+            }
+        },
+        {
+            "name": "Multikino Głogów",
+            "address": "ul. Piłsudskiego 19, Głogów",
+            "contact": {
+                "phone": "+48 41 267 23 90",
+                "email": "glogow@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/glogow",
+            "imax_technology": false,
+            "location": {
+                "latitude": 51.650155450960035,
+                "longitude": 16.054871156701093
+            }
+        },
+        {
+            "name": "Multikino Gorzów Wielkopolski",
+            "address": "ul. kombatantów 30, Gorzów Wielkopolski",
+            "contact": {
+                "phone": "+48 41 267 23 90",
+                "email": "gorzow@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/gorzow-wielkopolski",
+            "imax_technology": false,
+            "location": {
+                "latitude": 52.76103527893256,
+                "longitude": 15.260379700649477
+            }
+        },
+        {
+            "name": "Multikino Jaworzno",
+            "address": "ul. Grunwaldzka 59, Jaworzno",
+            "contact": {
+                "phone": "+48 41 26 72 369",
+                "email": "jaworzno@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/jaworzno",
+            "imax_technology": false,
+            "location": {
+                "latitude": 50.20335806642576,
+                "longitude": 19.2687931
+            }
+        },
+        {
+            "name": "Multikino Kalisz",
+            "address": "ul. 3 Maja 1, Kalisz",
+            "contact": {
+                "phone": "+48 41 267 23 84",
+                "email": "kalisz@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/kalisz",
+            "imax_technology": false,
+            "location": {
+                "latitude": 51.76571080706539,
+                "longitude": 18.08779086714561
+            }
+        },
+        {
+            "name": "Multikino Katowice",
+            "address": "ul. 3 Maja 30, Katowice",
+            "contact": {
+                "phone": "+48 41 26 72 361",
+                "email": "katowice@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/katowice",
+            "imax_technology": false,
+            "location": {
+                "latitude": 50.2587230928755,
+                "longitude": 19.016505542330144
+            }
+        },
+        {
+            "name": "Multikino Kielce",
+            "address": "ul. Warszawska 26, Kielce",
+            "contact": {
+                "phone": "+48 54 23 03 635",
+                "email": "kielce@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/kielce",
+            "imax_technology": false,
+            "location": {
+                "latitude": 50.875691205184204,
+                "longitude": 20.635210400000002
+            }
+        },
+        {
+            "name": "Multikino Kłodzko",
+            "address": "ul. Noworudzka 2, Kłodzko",
+            "contact": {
+                "phone": "+48 41 267 23 83",
+                "email": "klodzko@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/klodzko",
+            "imax_technology": false,
+            "location": {
+                "latitude": 50.45397977577372, 
+                "longitude": 16.637643933359147
+            }
+        },
+        {
+            "name": "Multikino Koszalin",
+            "address": "ul. Paderewskiego 1, Koszalin",
+            "contact": {
+                "phone": "+48 41 26 72 364",
+                "email": "koszalin@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/koszalin",
+            "imax_technology": false,
+            "location": {
+                "latitude": 54.176759419167105,
+                "longitude": 16.20078476321199
+            }
+        },
+        {
+            "name": "Multikino Kraków",
+            "address": "Dobrego Pasterza 128, Kraków",
+            "contact": {
+                "phone": "+48 54 23 03 630",
+                "email": "krakow@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/krakow",
+            "imax_technology": false,
+            "location": {
+                "latitude": 50.088907823805,
+                "longitude": 19.984302636788012
+            }
+        },
+        {
+            "name": "Multikino Leszno",
+            "address": "Al. Konstytucji 3 Maja 12, Leszno",
+            "contact": {
+                "phone": "+48 441 267 23 86",
+                "email": "leszno@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/leszno",
+            "imax_technology": false,
+            "location": {
+                "latitude": 51.82578469999274,
+                "longitude": 16.599972671117065
+            }
+        },
+        {
+            "name": "Multikino Lublin",
+            "address": "Aleja Spółdzielności Pracy 36B, Lublin",
+            "contact": {
+                "phone": "+48 41 26 72 367",
+                "email": "lublin@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/lublin",
+            "imax_technology": false,
+            "location": {
+                "latitude": 51.2672573356486,
+                "longitude": 22.57132672028951
+            }
+        },
+        {
+            "name": "Multikino Łódź",
+            "address": "Al. Piłsudskiego 5, Łódź",
+            "contact": {
+                "phone": "+48 41 267 23 72",
+                "email": "lodz@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/lodz",
+            "imax_technology": false,
+            "location": {
+                "latitude": 51.759077915592414,
+                "longitude": 19.4605384312662
+            }
+        },
+        {
+            "name": "Multikino Mielec",
+            "address": "ul. Powstańców Warszawy 4, Mielec",
+            "contact": {
+                "phone": "+48 41 267 23 93",
+                "email": "mielec@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/mielec",
+            "imax_technology": false,
+            "location": {
+                "latitude": 50.28837687056168,
+                "longitude": 21.459415557570853
+            }
+        },
+        {
+            "name": "Multikino Olsztyn",
+            "address": "ul. Tuwima 26, Olsztyn",
+            "contact": {
+                "phone": "+48 41 267 23 73",
+                "email": "olsztyn@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/olsztyn",
+            "imax_technology": false,
+            "location": {
+                "latitude": 53.75394134133059,
+                "longitude": 20.48488854232939
+            }
+        },
+        {
+            "name": "Multikino Poznań 51",
+            "address": "ul. Królowej Jadwigi 51, Poznań",
+            "contact": {
+                "phone": "+48 54 23 03 633",
+                "email": "poznan51@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/poznan-multikino-51",
+            "imax_technology": false,
+            "location": {
+                "latitude": 52.39943294951617,
+                "longitude": 16.9290235
+            }
+        },
+        {
+            "name": "Multikino Poznań Stary Browar",
+            "address": "ul. Półwiejska 42, Poznań",
+            "contact": {
+                "phone": "+48 41 267 23 74",
+                "email": "starybrowar@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/poznan-stary-browar",
+            "imax_technology": false,
+            "location": {
+                "latitude": 52.40282079850625,
+                "longitude": 16.924306400000766
+            }
+        },
+        {
+            "name": "Multikino Pruszków",
+            "address": "ul. Sienkiewicza 19, Pruszków",
+            "contact": {
+                "phone": "+48 41 267 23 81",
+                "email": "pruszkow@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/pruszkow",
+            "imax_technology": false,
+            "location": {
+                "latitude": 52.16516209877899,
+                "longitude": 20.792842249143277
+            }
+        },
+        {
+            "name": "Multikino Radom",
+            "address": "ul. Bolesława Chrobrego 1, Radom",
+            "contact": {
+                "phone": "+48 41 26 72 366",
+                "email": "radom@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/radom",
+            "imax_technology": false,
+            "location": {
+                "latitude": 51.40534675915925,
+                "longitude": 21.154300835394498
+            }
+        },
+        {
+            "name": "Multikino Rumia",
+            "address": "ul. Sabata 1, Rumia",
+            "contact": {
+                "phone": "+48 41 267 23 75",
+                "email": "rumia@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/rumia",
+            "imax_technology": false,
+            "location": {
+                "latitude": 54.563962191758044,
+                "longitude": 18.39156155013186
+            }
+        },
+        {
+            "name": "Multikino Rybnik",
+            "address": "ul. Bolesława Chrobrego 1, Rybnik",
+            "contact": {
+                "phone": "+48 41 267 23 76",
+                "email": "rybnik@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/rybnik",
+            "imax_technology": false,
+            "location": {
+                "latitude": 50.09436359295983,
+                "longitude": 18.543234599997355
+            }
+        },
+        {
+            "name": "Multikino Rzeszów",
+            "address": "al. Kopisto 1, Rzeszów",
+            "contact": {
+                "phone": "+48 54 23 03 638",
+                "email": "rzeszow@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/rzeszow",
+            "imax_technology": false,
+            "location": {
+                "latitude": 50.02756337293523,
+                "longitude": 22.015870870290787
+            }
+        },
+        {
+            "name": "Multikino Słupsk",
+            "address": "ul. Szczecińska 57, Słupsk",
+            "contact": {
+                "phone": "+48 41 267 23 77",
+                "email": "slupsk@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/slupsk",
+            "imax_technology": false,
+            "location": {
+                "latitude": 54.45394326950538,
+                "longitude": 16.9921056
+            }
+        },
+        {
+            "name": "Multikino Sopot",
+            "address": "ul. Boh. Monte Cassino 63, Sopot",
+            "contact": {
+                "phone": "+48 54 23 03 639",
+                "email": "sopot@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/sopot",
+            "imax_technology": false,
+            "location": {
+                "latitude": 54.445258125999736,
+                "longitude": 18.567887107220983
+            }
+        },
+        {
+            "name": "Multikino Szczecin",
+            "address": "al. Wyzwolenia 18-20, Szczecin",
+            "contact": {
+                "phone": "+48 41 267 23 78",
+                "email": "szczecin@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/szczecin",
+            "imax_technology": false,
+            "location": {
+                "latitude": 53.43373952896621,
+                "longitude": 14.555905286505915
+            }
+        },
+        {
+            "name": "Multikino Świdnica",
+            "address": "ul. Westerplatte 29, Świdnica",
+            "contact": {
+                "phone": "+48 41 267 23 85",
+                "email": "swidnica@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/swidnica",
+            "imax_technology": false,
+            "location": {
+                "latitude": 50.840749465335556,
+                "longitude": 16.49749680191636
+            }
+        },
+        {
+            "name": "Multikino Świnoujście",
+            "address": "ul. Jarosława Dąbrowskiego 5, Świnoujście",
+            "contact": {
+                "phone": "+48 41 267 23 88",
+                "email": "swinoujscie@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/swinoujscie",
+            "imax_technology": false,
+            "location": {
+                "latitude": 53.909904345214635,
+                "longitude": 14.246423303084335
+            }
+        },
+        {
+            "name": "Multikino Tarnów",
+            "address": "ul. Krakowska 149/154, Tarnów",
+            "contact": {
+                "phone": "+48 41 267 23 92",
+                "email": "tarnow@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/tarnow",
+            "imax_technology": false,
+            "location": {
+                "latitude": 50.00058262779079,
+                "longitude": 20.957632135574404
+            }
+        },
+        {
+            "name": "Multikino Tychy City Point",
+            "address": "al. Jana Pawła II 16/18, Tychy",
+            "contact": {
+                "phone": "+48 54 23 03 634",
+                "email": "tychy@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/tychy-city-point",
+            "imax_technology": false,
+            "location": {
+                "latitude": 50.11162141987295,
+                "longitude": 18.987986899996137
+            }
+        },
+        {
+            "name": "Multikino Tychy Gemini Park",
+            "address": "ul. Towarowa 2C, Tychy",
+            "contact": {
+                "phone": "+48 519 520 934",
+                "email": "TychyGemini@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/tychy-gemini-park",
+            "imax_technology": false,
+            "location": {
+                "latitude": 50.097030546010096,
+                "longitude": 19.008535120444552
+            }
+        },
+        {
+            "name": "Multikino Warszawa Atrium Reduta",
+            "address": "Aleje Jerozolimskie 148, Warszawa",
+            "contact": {
+                "phone": "+48 41 267 23 94",
+                "email": "reduta@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/warszawa-atrium-reduta",
+            "imax_technology": false,
+            "location": {
+                "latitude": 52.213152989946884,
+                "longitude": 20.951132945190448
+            }
+        },
+        {
+            "name": "Multikino Warszawa Atrium Targówek",
+            "address": "ul. Głębocka 15, Warszawa",
+            "contact": {
+                "phone": "+48 41 26 72 362",
+                "email": "targowek@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/warszawa-atrium-targowek",
+            "imax_technology": false,
+            "location": {
+                "latitude": 52.30239199922756,
+                "longitude": 21.057580409359762
+            }
+        },
+        {
+            "name": "Multikino Warszawa Młociny",
+            "address": "ul. Zgrupowania AK Kampinos 15, Warszawa",
+            "contact": {
+                "phone": "+48 41 26 72 382",
+                "email": "mlociny@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/warszawa-mlociny",
+            "imax_technology": false,
+            "location": {
+                "latitude": 52.294780564143004,
+                "longitude": 20.930933312063026
+            }
+        },
+        {
+            "name": "Multikino Warszawa Ursynów",
+            "address": "al. Komisji Edukacji Narodowej 60, Warszawa",
+            "contact": {
+                "phone": "+48 54 23 03 632",
+                "email": "ursynow@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/warszawa-ursynow",
+            "imax_technology": false,
+            "location": {
+                "latitude": 52.149623191615646,
+                "longitude": 21.046763499998118
+            }
+        },
+        {
+            "name": "Multikino Warszawa Wola Park",
+            "address": "ul. Górczewska 124, Warszawa",
+            "contact": {
+                "phone": "+48 41 267 23 79",
+                "email": "wola@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/warszawa-wola-park",
+            "imax_technology": false,
+            "location": {
+                "latitude": 52.24172833679486,
+                "longitude": 20.932905700000003
+            }
+        },
+        {
+            "name": "Multikino Warszawa Złote Tarasy",
+            "address": "ul. Złota 59, Warszawa",
+            "contact": {
+                "phone": "+48 41 26 72 360",
+                "email": "zlotetarasy@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/warszawa-zlote-tarasy",
+            "imax_technology": false,
+            "location": {
+                "latitude": 52.229383385715494,
+                "longitude": 21.001904142329394
+            }
+        },
+        {
+            "name": "Multikino Włocławek",
+            "address": "ul. Pułaskiego 10-12, Włocławek",
+            "contact": {
+                "phone": "+48 54 23 03 637",
+                "email": "wloclawek@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/wloclawek",
+            "imax_technology": false,
+            "location": {
+                "latitude": 52.654720572926365,
+                "longitude": 19.06085475767062
+            }
+        },
+        {
+            "name": "Multikino Wrocław Pasaż Grunwaldzki",
+            "address": "pl. Grunwaldzki 22, Wrocław",
+            "contact": {
+                "phone": "+48 54 23 03 636",
+                "email": "wroclawpasaz@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/wroclaw-pasaz-grunwaldzki",
+            "imax_technology": false,
+            "location": {
+                "latitude": 51.11267026133811,
+                "longitude": 17.0592564
+            }
+        },
+        {
+            "name": "Multikino Zabrze",
+            "address": "ul. Gdańska 18, Zabrze",
+            "contact": {
+                "phone": "+48 41 26 72 363",
+                "email": "zabrze@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/zabrze",
+            "imax_technology": false,
+            "location": {
+                "latitude": 50.317292957203655,
+                "longitude": 18.7767766672993
+            }
+        },
+        {
+            "name": "Multikino Zgorzelec",
+            "address": "ul. Armii Krajowej 52a, Zgorzelec",
+            "contact": {
+                "phone": "+48 41 267 23 80",
+                "email": "zgorzelec@multikino.pl"
+            },
+            "schedule_link":"https://multikino.pl/repertuar/zgorzelec",
+            "imax_technology": false,
+            "location": {
+                "latitude": 51.15295034642946,
+                "longitude": 15.026851471164694
+            }
         }
     ],
     "cinemacity": [
