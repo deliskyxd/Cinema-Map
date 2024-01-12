@@ -2,20 +2,50 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
     <link
-      rel="icon"
-      type="image/x-icon"
-      href="https://openlayers.org/favicon.ico"
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Using OpenLayers with Vite</title>
+    <title>Mapa Kin w Polsce</title>
   </head>
   <body>
-    <div id="map"></div>
-    <div id="popup" class="ol-popup">
-      <div id="popup-content"></div>
-    </div>
-
+    <header>
+      <h1>Mapa Kin w Polsce</h1>
+      <nav>
+        <div>
+          <button id="toggleCinemaCity" data-layer="cinemacity">
+            <img src="./images/cinemacitylogo.png" alt="Cinema City Logo" />
+          </button>
+          <p>Cinema City</p>
+        </div>
+        <div>
+          <button id="toggleHelios" data-layer="helios">
+            <img src="./images/helioslogo.png" alt="Helios Logo" />
+          </button>
+          <p>Helios</p>
+        </div>
+        <div>
+          <button id="toggleMultikino" data-layer="multikino">
+            <img src="./images/multikinologo.png" alt="Multikino Logo" />
+          </button>
+          <p>Multikino</p>
+        </div>
+      </nav>
+      <aside>
+        Kamil Szczukowski, 186714<br />
+        Daniel Fiećko, 190681<br />
+        Michał Drzeżdżon, 191010
+      </aside>
+    </header>
+    <main>
+      <div id="map"></div>
+      <div id="popup" class="bubble">
+        <div id="popup-content"></div>
+        <div class="pointer"></div>
+      </div>
+    </main>
     <script type="module" src="./main.js"></script>
   </body>
 </html>
