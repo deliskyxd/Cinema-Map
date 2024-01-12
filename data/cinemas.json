@@ -775,18 +775,453 @@
     ],
     "cinemacity": [
         {
-            "name": "Cinema City Toruń Czerwona Droga",
-            "address": "Czerwona Droga 1/6, Toruń",
+            "name": "Cinema City Bielsko Biała",
+            "address": "Leszczyńska 20, 43-382 Bielsko-Biała",
+            "contact": {
+                "phone": "+48 33 485 39 39",
+                "email": "https://www.cinema-city.pl/kontakt"
+            },
+            "schedule_link": "https://www.cinema-city.pl/kina/bielsko-biala",
+            "imax_technology": false,
+            "location": {
+                "latitude": 49.80247716478286,
+                "longitude": 19.050030153209224
+            }
+        },
+        {
+            "name": "Cinema City Bydgoszcz",
+            "address": "Jagiellońska 39/47, 85-097 Bydgoszcz",
+            "contact": {
+                "phone": "+48 22 241 92 22",
+                "email": "https://www.cinema-city.pl/kontakt"
+            },
+            "schedule_link": "https://www.cinema-city.pl/kina/bydgoszcz",
+            "imax_technology": false,
+            "location": {
+                "latitude": 53.12535102845733,
+                "longitude": 18.018166868704267 
+            }
+        },
+        {
+            "name": "Cinema City Bytom",
+            "address": "Centrum Handlowe Agora, plac Tadeusza Kościuszki 1, 41-902 Bytom",
+            "contact": {
+                "phone": "+48 324 939 606",
+                "email": "https://www.cinema-city.pl/kontakt"
+            },
+            "schedule_link": "https://www.cinema-city.pl/kina/bytom",
+            "imax_technology": false,
+            "location": {
+                "latitude": 50.34737747494929, 
+                "longitude": 18.919306555082276
+            }
+        },
+        {
+            "name": "Cinema City Cieszyn",
+            "address": "Wojciecha Korfantego 23, 43-400 Cieszyn",
+            "contact": {
+                "phone": "+48 222 419 222",
+                "email": "https://www.cinema-city.pl/kontakt"
+            },
+            "schedule_link": "https://www.cinema-city.pl/kina/cieszyn",
+            "imax_technology": false,
+            "location": {
+                "latitude": 49.750161107317425, 
+                "longitude": 18.63971608204232
+            }
+        },
+        {
+            "name": "Cinema City Częstochowa - Galeria Jurajska",
+            "address": "Aleja Wojska Polskiego 207, 42-200 Częstochowa",
+            "contact": {
+                "phone": "+48 34 390 17 77",
+                "email": "https://www.cinema-city.pl/kontakt"
+            },
+            "schedule_link": "https://www.cinema-city.pl/kina/jurajska",
+            "imax_technology": false,
+            "location": {
+                "latitude": 50.807495748217185, 
+                "longitude": 19.131543271079916
+            }
+        },
+        {
+            "name": "Cinema City Częstochowa - Wolność",
+            "address": "Wolność, Aleja Tadeusza Kościuszki 5, 42-202 Częstochowa",
+            "contact": {
+                "phone": "+48 34 371 71 71",
+                "email": "https://www.cinema-city.pl/kontakt"
+            },
+            "schedule_link": "https://www.cinema-city.pl/kina/wolnosc",
+            "imax_technology": false,
+            "location": {
+                "latitude": 50.81319209906386, 
+                "longitude": 19.1181058281166 
+            }
+        },
+        {
+            "name": "Cinema City Elbląg",
+            "address": "Teatralna 5, 82-300 Elbląg",
+            "contact": {
+                "phone": "+48 22 241 92 22",
+                "email": "https://www.cinema-city.pl/kontakt"
+            },
+            "schedule_link": "https://www.cinema-city.pl/kina/elblag",
+            "imax_technology": false,
+            "location": {
+                "latitude": 54.165810713731645, 
+                "longitude": 19.401347726424827  
+            }
+        },
+        {
+            "name": "Cinema City Gliwice",
+            "address": "CH Forum, Lipowa 1, 44-100 Gliwice",
+            "contact": {
+                "phone": "+48 324 939 777",
+                "email": "https://www.cinema-city.pl/kontakt"
+            },
+            "schedule_link": "https://www.cinema-city.pl/kina/gliwice",
+            "imax_technology": false,
+            "location": {
+                "latitude": 50.30034091626717, 
+                "longitude": 18.682848183915738
+            }
+        },
+        {
+            "name": "Cinema City IMAX Katowice - Punkt 44",
+            "address": "Punkt 44, Gliwicka 44, 40-853 Katowice",
+            "contact": {
+                "phone": "+48 323 595 959",
+                "email": "https://www.cinema-city.pl/kontakt"
+            },
+            "schedule_link": "https://www.cinema-city.pl/kina/punkt44",
+            "imax_technology": true,
+            "location": {
+                "latitude": 50.262611323299616, 
+                "longitude": 19.00645508391401
+            }
+        },
+        {
+            "name": "Cinema City Silesia",
+            "address": "Silesia City Center, Chorzowska 107, 40-101 Katowice",
+            "contact": {
+                "phone": "+48 324 939 555",
+                "email": "https://www.cinema-city.pl/kontakt"
+            },
+            "schedule_link": "https://www.cinema-city.pl/kina/silesia",
+            "imax_technology": false,
+            "location": {
+                "latitude": 50.27044294907695, 
+                "longitude": 19.00162179740777
+            }
+        },
+        {
+            "name": "Cinema City Kraków - Bonarka",
+            "address": "CH Bonarka City Center, Henryka Kamieńskiego 11, 30-644 Kraków",
+            "contact": {
+                "phone": "+48 222 419 222",
+                "email": "https://www.cinema-city.pl/kontakt"
+            },
+            "schedule_link": "https://www.cinema-city.pl/kina/bonarka",
+            "imax_technology": false,
+            "location": {
+                "latitude": 50.027038151380495, 
+                "longitude": 19.94968433972576
+            }
+        },
+        {
+            "name": "Cinema City Kraków - Galeria Kazimierz",
+            "address": "Galeria Kazimierz, Podgórska 34, 31-536 Kraków",
+            "contact": {
+                "phone": "+48 122 545 454",
+                "email": "https://www.cinema-city.pl/kontakt"
+            },
+            "schedule_link": "https://www.cinema-city.pl/kina/kazimierz",
+            "imax_technology": false,
+            "location": {
+                "latitude": 50.05368276754853, 
+                "longitude": 19.95488826856248
+            }
+        },
+        {
+            "name": "Cinema City IMAX Zakopianka",
+            "address": "Zakopiańska 62, 30-418 Kraków",
+            "contact": {
+                "phone": "+48 122 959 595",
+                "email": "https://www.cinema-city.pl/kontakt"
+            },
+            "schedule_link": "https://www.cinema-city.pl/kina/zakopianka",
+            "imax_technology": true,
+            "location": {
+                "latitude": 50.01643953984991, 
+                "longitude": 19.930487897396365 
+            }
+        },
+        {
+            "name": "Cinema City Lublin - Felicity",
+            "address": "Cinema City Felicity, al. Wincentego Witosa 32, 20-315 Lublin",
+            "contact": {
+                "phone": "+48 81 443 58 58",
+                "email": "https://www.cinema-city.pl/kontakt"
+            },
+            "schedule_link": "https://www.cinema-city.pl/kina/felicity",
+            "imax_technology": false,
+            "location": {
+                "latitude": 51.23207242452219, 
+                "longitude": 22.61445756861609
+            }
+        },
+        {
+            "name": "Cinema City Lublin - Plaza",
+            "address": "CH Plaza, Lipowa 13, 20-020 Lublin",
+            "contact": {
+                "phone": "+48 81 535 25 25",
+                "email": "https://www.cinema-city.pl/kontakt"
+            },
+            "schedule_link": "https://www.cinema-city.pl/kina/lublinplaza",
+            "imax_technology": false,
+            "location": {
+                "latitude": 51.244718398674436, 
+                "longitude": 22.55191792628773
+            }
+        },
+        {
+            "name": "Cinema City Łódź - Manufaktura",
+            "address": "CH Manufaktura, Drewnowska 58, 91-002 Łódź",
+            "contact": {
+                "phone": "+48 42 664 64 64",
+                "email": "https://www.cinema-city.pl/kontakt"
+            },
+            "schedule_link": "https://www.cinema-city.pl/kina/manufaktura",
+            "imax_technology": true,
+            "location": {
+                "latitude": 51.780957095842176, 
+                "longitude": 19.44878235756748
+            }
+        },
+        {
+            "name": "Cinema City Poznań - Kinepolis",
+            "address": "Kinepolis, Bolesława Krzywoustego 72, 61-144 Poznań",
+            "contact": {
+                "phone": "+48 61 871 56 00",
+                "email": "https://www.cinema-city.pl/kontakt"
+            },
+            "schedule_link": "https://www.cinema-city.pl/kina/kinepolis",
+            "imax_technology": false,
+            "location": {
+                "latitude": 52.37355362335944, 
+                "longitude": 16.98046461099799
+            }
+        },
+        {
+            "name": "Cinema City Poznań - Plaza",
+            "address": "CH Plaza, Drużbickiego 2, 61-693 Poznań",
+            "contact": {
+                "phone": "+48 61 662 62 62",
+                "email": "https://www.cinema-city.pl/kontakt"
+            },
+            "schedule_link": "https://www.cinema-city.pl/kina/poznanplaza",
+            "imax_technology": false,
+            "location": {
+                "latitude": 52.44214914826156, 
+                "longitude": 16.91954342877371
+            }
+        },
+        {
+            "name": "Cinema City Ruda Śląska",
+            "address": "1 Maja 310, 41-710 Ruda Śląska",
+            "contact": {
+                "phone": "+48 22 241 92 22",
+                "email": "https://www.cinema-city.pl/kontakt"
+            },
+            "schedule_link": "https://www.cinema-city.pl/kina/rudaslaska",
+            "imax_technology": false,
+            "location": {
+                "latitude": 50.27569856322832, 
+                "longitude": 18.865984537888433
+            }
+        },
+        {
+            "name": "Cinema City Sosnowiec Plaza",
+            "address": "Sosnowiec Plaza, Henryka Sienkiewicza 2, 41-400 Sosnowiec",
+            "contact": {
+                "phone": "+48 32 775 75 75",
+                "email": "https://www.cinema-city.pl/kontakt"
+            },
+            "schedule_link": "https://www.cinema-city.pl/kina/sosnowiec",
+            "imax_technology": false,
+            "location": {
+                "latitude": 50.275714449674, 
+                "longitude": 19.12714304158563
+            }
+        },
+        {
+            "name": "Cinema City Starogard Gdański",
+            "address": "Galeria Neptun, Pomorska 7, 83-200 Starogard Gdański",
+            "contact": {
+                "phone": "+48 58 325 01 50",
+                "email": "https://www.cinema-city.pl/kontakt"
+            },
+            "schedule_link": "https://www.cinema-city.pl/kina/starogard",
+            "imax_technology": false,
+            "location": {
+                "latitude": 53.96451097026724, 
+                "longitude": 18.528644153402098
+            }
+        },
+        {
+            "name": "Cinema City Toruń - Czerwona Droga",
+            "address": "Czerwona Droga 1/6, 87-100 Toruń",
             "contact": {
                 "phone": "+48 56 664 64 64",
-                "email": "torun@cinema-city.pl"
+                "email": "https://www.cinema-city.pl/kontakt"
             },
             "schedule_link": "https://www.cinema-city.pl/kina/czerwonadroga",
             "imax_technology": false,
             "location": {
-                "latitude": 53.01530908011159,
-                "longitude": 18.600613235333032
+                "latitude": 53.015276807677694, 
+                "longitude": 18.600237726370104
+            }
+        },
+        {
+            "name": "Cinema City Toruń - Plaza",
+            "address": "Plaza, Broniewskiego 90, 87-100 Toruń",
+            "contact": {
+                "phone": "+48 22 241 92 22",
+                "email": "https://www.cinema-city.pl/kontakt"
+            },
+            "schedule_link": "https://www.cinema-city.pl/kina/torunplaza",
+            "imax_technology": false,
+            "location": {
+                "latitude": 53.01602441434767, 
+                "longitude": 18.561302566850447 
+            }
+        },
+        {
+            "name": "Cinema City Wałbrzych",
+            "address": "Galeria Victoria, 1 Maja 64, 58-300 Wałbrzych",
+            "contact": {
+                "phone": "+48 74 648 48 48",
+                "email": "https://www.cinema-city.pl/kontakt"
+            },
+            "schedule_link": "https://www.cinema-city.pl/kina/walbrzych",
+            "imax_technology": false,
+            "location": {
+                "latitude": 50.76711301450461, 
+                "longitude": 16.2656027685948
+            }
+        },
+        {
+            "name": "Cinema City Warszawa - Arkadia",
+            "address": "al. Jana Pawła II 82, 00-175 Warszawa",
+            "contact": {
+                "phone": "+48 22 321 21 21",
+                "email": "https://www.cinema-city.pl/kontakt"
+            },
+            "schedule_link": "https://www.cinema-city.pl/kina/arkadia",
+            "imax_technology": false,
+            "location": {
+                "latitude": 52.25723918367676, 
+                "longitude": 20.98454843982802
+            }
+        },
+        {
+            "name": "Cinema City Warszawa - Bemowo",
+            "address": "Galeria Bemowo, Powstańców Śląskich 126A, 01-466 Warszawa",
+            "contact": {
+                "phone": "+48 22 241 95 19",
+                "email": "https://www.cinema-city.pl/kontakt"
+            },
+            "schedule_link": "https://www.cinema-city.pl/kina/bemowo",
+            "imax_technology": false,
+            "location": {
+                "latitude": 52.26590485870823,
+                "longitude": 20.932834039828464
+            }
+        },
+        {
+            "name": "Cinema City Warszawa - Białołęka",
+            "address": "Białołęka Galeria Północna, Światowida 17, 03-144 Warszawa",
+            "contact": {
+                "phone": "+48 22 241 92 22",
+                "email": "https://www.cinema-city.pl/kontakt"
+            },
+            "schedule_link": "https://www.cinema-city.pl/kina/galeriapolnocna",
+            "imax_technology": false,
+            "location": {
+                "latitude": 52.318658785246804, 
+                "longitude": 20.9670413711314
+            }
+        },
+        {
+            "name": "Cinema City Warszawa - Mokotów ",
+            "address": "Wołoska 12, 02-675 Warszawa",
+            "contact": {
+                "phone": "+48 22 456 65 02",
+                "email": "https://www.cinema-city.pl/kontakt"
+            },
+            "schedule_link": "https://www.cinema-city.pl/kina/mokotow",
+            "imax_technology": false,
+            "location": {
+                "latitude": 52.179152576158366, 
+                "longitude": 21.004201597495417
+            }
+        },
+        {
+            "name": "Cinema City Warszawa - Promenada",
+            "address": "Ostrobramska 75C, 04-175 Warszawa",
+            "contact": {
+                "phone": "+48 22 241 90 90",
+                "email": "https://www.cinema-city.pl/kontakt"
+            },
+            "schedule_link": "https://www.cinema-city.pl/kina/promenada",
+            "imax_technology": false,
+            "location": {
+                "latitude": 52.23168638065836, 
+                "longitude": 21.105382153320292
+            }
+        },
+        {
+            "name": "Cinema City Warszawa - Sadyba",
+            "address": "Powsińska 31, 02-903 Warszawa",
+            "contact": {
+                "phone": "+48 22 241 94 19",
+                "email": "https://www.cinema-city.pl/kontakt"
+            },
+            "schedule_link": "https://www.cinema-city.pl/kina/sadyba",
+            "imax_technology": false,
+            "location": {
+                "latitude": 52.18741782498665, 
+                "longitude": 21.06122031098915
+            }
+        },
+        {
+            "name": "Cinema City Wrocław - Korona",
+            "address": "CH Korona, Bolesława Krzywoustego 126C, 51-421 Wrocław",
+            "contact": {
+                "phone": "+48 71 323 60 00",
+                "email": "https://www.cinema-city.pl/kontakt"
+            },
+            "schedule_link": "https://www.cinema-city.pl/kina/korona",
+            "imax_technology": false,
+            "location": {
+                "latitude": 51.14228672095374, 
+                "longitude": 17.08910719929605
+            }
+        },
+        {
+            "name": "Cinema City Zielona Góra",
+            "address": "Focus Mall Zielona Góra, Wrocławska 17, 65-427 Zielona Góra",
+            "contact": {
+                "phone": "+48 68 321 01 10",
+                "email": "https://www.cinema-city.pl/kontakt"
+            },
+            "schedule_link": "https://www.cinema-city.pl/kina/zielonagora",
+            "imax_technology": false,
+            "location": {
+                "latitude": 51.93588539383726, 
+                "longitude": 15.511286497484118
             }
         }
     ]
 }
+
