@@ -71,15 +71,32 @@ h1 {
   color: #fdfdfd;
 }
 
-.ol-popup {
-  width: 300px;
-  height: 250px;
-  background-color: #1f1f1f;
+#popup {
+  background: #edf5e1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.5));
 }
 
-#popup {
-  color: #fdfdfd;
-  border-radius: 30px;
-  border: 10px solid #000000;
-  padding: 5px;
+#popup-content {
+  max-height: 200px;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.pointer {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 18px solid #edf5e1;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%) rotate(180deg);
 }
