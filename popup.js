@@ -22,7 +22,7 @@ export default function createPopup(map) {
       const mapSize = map.getSize();
       const centerOfViewport = [mapSize[0] / 2, mapSize[1] / 2];
       map.getView().centerOn(featureCoordinate, mapSize, centerOfViewport);
-
+      map.getView().fit(feature.getGeometry(), { minResolution: 60 });
       const content = `<p>${featureData.cinema.name}</p>
          <p>Adres: ${featureData.cinema.address}</p>
          <p>Kontakt: ${featureData.cinema.contact.phone}, ${
