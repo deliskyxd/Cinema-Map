@@ -36,6 +36,11 @@ nav button {
   align-items: center;
 }
 
+nav button.grayed-out {
+  filter: grayscale(100%);
+  opacity: 0.5;
+}
+
 nav img {
   width: 55px;
   border-radius: 50%;

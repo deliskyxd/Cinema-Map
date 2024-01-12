@@ -52,6 +52,12 @@ function toggleLayer(layerName) {
   layers.includes(cinemaLayer)
     ? map.removeLayer(cinemaLayer)
     : map.addLayer(cinemaLayer);
+
+  const button = document.querySelector(`button[data-layer="${layerName}"]`);
+  if (button) {
+    const isLayerVisible = layers.includes(cinemaLayer);
+    button.classList.toggle("grayed-out", !isLayerVisible);
+  }
 }
 
 initializeMap().catch((error) =>
