@@ -56,6 +56,6 @@ function toggleLayer(layerName) {
 
 initializeMap()
   .then(() => {
-    toggleLayer("helios");
+    //toggleLayer("helios");
   })
   .catch((error) => console.error("Error initializing map:", error));

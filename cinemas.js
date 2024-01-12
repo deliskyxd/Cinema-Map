@@ -17,7 +17,7 @@ export default async function createCinemaLayers(map, jsonFilePath) {
       map.addLayer(cinemaLayers[layerName]);
 
       const cinemaFeatures = cinemasData[layerName].map((cinema) => {
-        let logoImage = `./images/${layerName}logo.jpg`;
+        let logoImage = `./images/${layerName}logo.png`;
 
         const point = new Feature({
           geometry: new Point(
@@ -33,7 +33,7 @@ export default async function createCinemaLayers(map, jsonFilePath) {
               anchorXUnits: "fraction",
               anchorYUnits: "pixels",
               src: logoImage,
-              scale: 0.12,
+              scale: 0.05,
             }),
           })
         );
