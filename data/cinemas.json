@@ -1,5 +1,5 @@
 {
-    "cinemas": [
+    "helios": [
         {
             "name": "Helios Bełchatów",
             "address": "ul.Kolejowa 6, Bełchatów",
@@ -755,7 +755,9 @@
                 "latitude": 50.045247689342105,
                 "longitude": 18.703396741533773
             }
-        },
+        }
+    ],
+    "multikino": [
         {
             "name": "Multikino Gdańsk",
             "address": "al. Zwycięstwa 14, Gdańsk",
@@ -770,6 +772,21 @@
                 "longitude": 18.627158613036855
             }
         }
+    ],
+    "cinemacity": [
+        {
+            "name": "Cinema City Toruń Czerwona Droga",
+            "address": "Czerwona Droga 1/6, Toruń",
+            "contact": {
+                "phone": "+48 56 664 64 64",
+                "email": "torun@cinema-city.pl"
+            },
+            "schedule_link": "https://www.cinema-city.pl/kina/czerwonadroga",
+            "imax_technology": false,
+            "location": {
+                "latitude": 53.01530908011159,
+                "longitude": 18.600613235333032
+            }
+        }
     ]
 }
-
