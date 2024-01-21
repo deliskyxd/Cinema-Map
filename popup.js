@@ -1,6 +1,6 @@
 import { Overlay } from "ol";
 
-export default function createPopup(map) {
+const createPopup = (map) => {
   const popupOverlay = new Overlay({
     element: document.getElementById("popup"),
     positioning: "bottom-center",
@@ -42,4 +42,6 @@ export default function createPopup(map) {
       popupOverlay.setPosition(undefined);
     }
   });
-}
+};
+
+export default createPopup;

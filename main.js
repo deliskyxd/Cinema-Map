@@ -5,6 +5,8 @@ import OSM from "ol/source/OSM";
 import { fromLonLat, transformExtent } from "ol/proj";
 import createCinemaLayers from "./cinemas";
 import createPopup from "./popup";
+import { initializeGeolocation } from "./geolocation";
+import { toggleLayer, findNearestCinemas } from "./functions";
 
 const borders = transformExtent(
   [9.173, 46.21, 29.631, 58.279],
@@ -39,25 +41,13 @@ map.on("pointermove", function (e) {
 const jsonFilePath = "./data/cinemas.json";
 
 let cinemaLayers;
-
+let allCinemas = [];
 async function initializeMap() {
-  cinemaLayers = await createCinemaLayers(map, jsonFilePath);
+  const result = await createCinemaLayers(map, jsonFilePath);
+  cinemaLayers = result.cinemaLayers;
+  allCinemas = result.allCinemas;
   createPopup(map);
-}
-
-function toggleLayer(layerName) {
-  const cinemaLayer = cinemaLayers[layerName];
-  const layers = map.getLayers().getArray();
-
-  layers.includes(cinemaLayer)
-    ? map.removeLayer(cinemaLayer)
-    : map.addLayer(cinemaLayer);
-
-  const button = document.querySelector(`button[data-layer="${layerName}"]`);
-  if (button) {
-    const isLayerVisible = layers.includes(cinemaLayer);
-    button.classList.toggle("grayed-out", !isLayerVisible);
-  }
+  initializeGeolocation(map);
 }
 
 initializeMap().catch((error) =>
@@ -65,11 +55,17 @@ initializeMap().catch((error) =>
 );
 
 document
+  .getElementById("findNearestCinemas")
+  .addEventListener("click", () => findNearestCinemas(allCinemas, 5));
+
+document
   .getElementById("toggleCinemaCity")
-  .addEventListener("click", () => toggleLayer("cinemacity"));
+  .addEventListener("click", () =>
+    toggleLayer(map, cinemaLayers, "cinemacity")
+  );
 document
   .getElementById("toggleHelios")
-  .addEventListener("click", () => toggleLayer("helios"));
+  .addEventListener("click", () => toggleLayer(map, cinemaLayers, "helios"));
 document
   .getElementById("toggleMultikino")
-  .addEventListener("click", () => toggleLayer("multikino"));
+  .addEventListener("click", () => toggleLayer(map, cinemaLayers, "multikino"));

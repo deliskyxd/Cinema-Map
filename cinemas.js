@@ -7,6 +7,7 @@ import VectorLayer from "ol/layer/Vector";
 
 export default async function createCinemaLayers(map, jsonFilePath) {
   const cinemaLayers = {};
+  const allCinemas = [];
   try {
     const response = await fetch(jsonFilePath);
     const cinemasData = await response.json();
@@ -37,9 +38,12 @@ export default async function createCinemaLayers(map, jsonFilePath) {
             }),
           })
         );
+        allCinemas.push(point);
 
         return point;
       });
+
+      console.log(allCinemas);
 
       const cinemaSource = new VectorSource({
         features: cinemaFeatures,
@@ -48,7 +52,7 @@ export default async function createCinemaLayers(map, jsonFilePath) {
       cinemaLayers[layerName].setSource(cinemaSource);
     });
 
-    return cinemaLayers;
+    return { cinemaLayers, allCinemas };
   } catch (error) {
     console.error("Error fetching JSON file:", error);
 
