@@ -1,5 +1,6 @@
 import { toLonLat } from "ol/proj";
 import { getDistance } from "ol/sphere";
+import { fromLonLat } from "ol/proj";
 
 const toggleLayer = (map, cinemaLayers, layerName) => {
     const cinemaLayer = cinemaLayers[layerName];
@@ -16,7 +17,7 @@ const toggleLayer = (map, cinemaLayers, layerName) => {
     }
 };
 
-const findNearestCinemas = (location, allCinemas, amount) => {
+const findNearestCinemas = (map, location, allCinemas, amount) => {
     
     console.log(location);
     const cinemasWithDistance = allCinemas.map((cinema) => {
@@ -32,6 +33,9 @@ const findNearestCinemas = (location, allCinemas, amount) => {
     nearestCinemas.forEach((cinema) => {
       console.log(cinema.values_.cinema);
     });
+
+    map.getView().setCenter(fromLonLat(location));
+    map.getView().setZoom(12);
 };
 
 export { toggleLayer, findNearestCinemas };

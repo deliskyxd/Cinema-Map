@@ -56,7 +56,7 @@ initializeMap().catch((error) =>
 
 document
     .getElementById("findNearestCinemas")
-    .addEventListener("click", () => findNearestCinemas(currentLocation, allCinemas, 5));
+    .addEventListener("click", () => findNearestCinemas(map, currentLocation, allCinemas, 5));
 document
     .getElementById("toggleCinemaCity")
     .addEventListener("click", () =>

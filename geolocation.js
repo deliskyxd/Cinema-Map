@@ -4,13 +4,14 @@ let currentLocation;
 
 function success(position) {
     currentLocation = [position.coords.longitude, position.coords.latitude];
+    //view.setCenter(currentLocation);
 }
 
 function error() {
     console.log("Can't load position");
     latitude = 54.37083;
     longitude = 18.613465;
-    view.setCenter([longitude, latitude]);
+    //view.setCenter([longitude, latitude]);
 }
 
 const initializeGeolocation = (map) => {
