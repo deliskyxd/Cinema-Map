@@ -23,17 +23,19 @@ const createPopup = (map) => {
       const centerOfViewport = [mapSize[0] / 2, mapSize[1] / 2];
       map.getView().centerOn(featureCoordinate, mapSize, centerOfViewport);
       map.getView().fit(feature.getGeometry(), { minResolution: 60 });
-      const content = `<p>${featureData.cinema.name}</p>
+      map.getView().setZoom(15);
+      const content = `<h3>${featureData.cinema.name}</h3>
          <p>Adres: ${featureData.cinema.address}</p>
-         <p>Kontakt: ${featureData.cinema.contact.phone}, ${
-        featureData.cinema.contact.email
-      }</p>
-         <p>Link do repertuaru: <a href="${
-           featureData.cinema.schedule_link
-         }" target="_blank">${featureData.cinema.schedule_link}</a></p>
+         <p>Telefon: ${featureData.cinema.contact.phone}</p>
+         <p>Email: ${featureData.cinema.contact.email}</p>     
          <p>Czy jest technologia IMAX?: ${
            featureData.cinema.imax_technology ? "Tak" : "Nie"
-         }</p> 
+         }</p>
+         <button onclick="event.stopPropagation(); window.open('${
+           featureData.cinema.schedule_link
+         }', '_blank')">      
+          Link do repertuaru
+         </button> 
         `;
 
       popupOverlay.setPosition(featureCoordinate);

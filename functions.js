@@ -45,15 +45,15 @@ const findNearestCinemas = (map, location, allCinemas, amount) => {
       listItem.innerHTML = `<h3>${cinemaData.name}</h3>
          <p>Adres: ${cinemaData.address}</p>
          <p>Telefon: ${cinemaData.contact.phone}</p>
-         <p>Email: ${cinemaData.contact.email}</p>
+         <p>Email: ${cinemaData.contact.email}</p> 
+         <p>Czy jest technologia IMAX?: ${
+           cinemaData.imax_technology ? "Tak" : "Nie"
+         }</p>
          <button onclick="event.stopPropagation(); window.open('${
            cinemaData.schedule_link
          }', '_blank')">      
           Link do repertuaru
          </button>
-         <p>Czy jest technologia IMAX?: ${
-           cinemaData.imax_technology ? "Tak" : "Nie"
-         }</p> 
         `;
       listItem.onclick = () => {
         const coordinates = [
@@ -61,7 +61,7 @@ const findNearestCinemas = (map, location, allCinemas, amount) => {
           cinemaData.location.latitude,
         ];
         map.getView().setCenter(fromLonLat(coordinates));
-        map.getView().setZoom(12);
+        map.getView().setZoom(15);
       };
       cinemaList.appendChild(listItem);
     });
