@@ -43,8 +43,6 @@ export default async function createCinemaLayers(map, jsonFilePath) {
         return point;
       });
 
-      console.log(allCinemas);
-
       const cinemaSource = new VectorSource({
         features: cinemaFeatures,
       });

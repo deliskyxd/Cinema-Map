@@ -57,9 +57,69 @@ aside {
   margin-right: 10px;
 }
 
+button {
+  background: #888;
+  color: #fdfdfd;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #555;
+}
+
 main {
+  position: relative;
   display: flex;
   flex-direction: column;
+}
+
+#cinema-list-container {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 25%;
+  width: fit-content;
+  height: 90vh;
+  overflow-y: auto;
+  background: rgba(44, 44, 44, 0.85);
+  color: #fdfdfd;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+#cinema-list-container::-webkit-scrollbar {
+  width: 15px;
+}
+
+#cinema-list-container::-webkit-scrollbar-track {
+  background: #fdfdfd;
+}
+
+#cinema-list-container::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+#cinema-list-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+#cinema-list-container ul {
+  padding: 0;
+}
+
+#cinema-list-container li {
+  background: #333;
+  color: #fdfdfd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  list-style-type: none;
+  cursor: pointer;
 }
 
 #map {
