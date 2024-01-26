@@ -26,6 +26,16 @@ nav div {
   text-align: center;
 }
 
+#logo {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+#logo h1 {
+  margin-right: 2rem;
+}
+
 nav button {
   border: none;
   background: none;
@@ -102,6 +112,28 @@ main {
   color: #fdfdfd;
   padding: 1rem;
   box-sizing: border-box;
+}
+
+#cinema-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#close-button {
+  background-color: #ca3433;
+  border: none;
+  color: #fdfdfd;
+  padding: 0.5rem 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#close-button:hover {
+  background-color: #800000;
 }
 
 #cinema-list-container::-webkit-scrollbar {

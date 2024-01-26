@@ -70,6 +70,12 @@ async function initializeMap() {
     .addEventListener("click", () =>
       toggleLayer(map, cinemaLayers, "multikino")
     );
+
+  document
+    .getElementById("close-button")
+    .addEventListener("click", function () {
+      document.getElementById("cinema-list-container").style.display = "none";
+    });
 }
 
 initializeMap().catch((error) =>
