@@ -1,6 +1,6 @@
 import { Overlay } from "ol";
 
-export default function createPopup(map) {
+const createPopup = (map) => {
   const popupOverlay = new Overlay({
     element: document.getElementById("popup"),
     positioning: "bottom-center",
@@ -22,18 +22,20 @@ export default function createPopup(map) {
       const mapSize = map.getSize();
       const centerOfViewport = [mapSize[0] / 2, mapSize[1] / 2];
       map.getView().centerOn(featureCoordinate, mapSize, centerOfViewport);
-
-      const content = `<p>${featureData.cinema.name}</p>
+      map.getView().fit(feature.getGeometry(), { minResolution: 60 });
+      map.getView().setZoom(15);
+      const content = `<h3>${featureData.cinema.name}</h3>
          <p>Adres: ${featureData.cinema.address}</p>
-         <p>Kontakt: ${featureData.cinema.contact.phone}, ${
-        featureData.cinema.contact.email
-      }</p>
-         <p>Link do repertuaru: <a href="${
-           featureData.cinema.schedule_link
-         }" target="_blank">${featureData.cinema.schedule_link}</a></p>
+         <p>Telefon: ${featureData.cinema.contact.phone}</p>
+         <p>Email: ${featureData.cinema.contact.email}</p>     
          <p>Czy jest technologia IMAX?: ${
            featureData.cinema.imax_technology ? "Tak" : "Nie"
-         }</p> 
+         }</p>
+         <button onclick="event.stopPropagation(); window.open('${
+           featureData.cinema.schedule_link
+         }', '_blank')">      
+          Link do repertuaru
+         </button> 
         `;
 
       popupOverlay.setPosition(featureCoordinate);
@@ -42,4 +44,6 @@ export default function createPopup(map) {
       popupOverlay.setPosition(undefined);
     }
   });
-}
+};
+
+export default createPopup;

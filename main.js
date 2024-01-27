@@ -5,6 +5,8 @@ import OSM from "ol/source/OSM";
 import { fromLonLat, transformExtent } from "ol/proj";
 import createCinemaLayers from "./cinemas";
 import createPopup from "./popup";
+import { currentLocation, initializeGeolocation } from "./geolocation";
+import { toggleLayer, findNearestCinemas } from "./functions";
 
 const borders = transformExtent(
   [9.173, 46.21, 29.631, 58.279],
@@ -39,37 +41,43 @@ map.on("pointermove", function (e) {
 const jsonFilePath = "./data/cinemas.json";
 
 let cinemaLayers;
-
+let allCinemas = [];
 async function initializeMap() {
-  cinemaLayers = await createCinemaLayers(map, jsonFilePath);
+  const result = await createCinemaLayers(map, jsonFilePath);
+  cinemaLayers = result.cinemaLayers;
+  allCinemas = result.allCinemas;
   createPopup(map);
-}
+  initializeGeolocation(map);
 
-function toggleLayer(layerName) {
-  const cinemaLayer = cinemaLayers[layerName];
-  const layers = map.getLayers().getArray();
+  document
+    .getElementById("findNearestCinemas")
+    .addEventListener("click", () =>
+      findNearestCinemas(map, currentLocation, allCinemas, 5)
+    );
 
-  layers.includes(cinemaLayer)
-    ? map.removeLayer(cinemaLayer)
-    : map.addLayer(cinemaLayer);
+  document
+    .getElementById("toggleCinemaCity")
+    .addEventListener("click", () =>
+      toggleLayer(map, cinemaLayers, "cinemacity")
+    );
 
-  const button = document.querySelector(`button[data-layer="${layerName}"]`);
-  if (button) {
-    const isLayerVisible = layers.includes(cinemaLayer);
-    button.classList.toggle("grayed-out", !isLayerVisible);
-  }
+  document
+    .getElementById("toggleHelios")
+    .addEventListener("click", () => toggleLayer(map, cinemaLayers, "helios"));
+
+  document
+    .getElementById("toggleMultikino")
+    .addEventListener("click", () =>
+      toggleLayer(map, cinemaLayers, "multikino")
+    );
+
+  document
+    .getElementById("close-button")
+    .addEventListener("click", function () {
+      document.getElementById("cinema-list-container").style.display = "none";
+    });
 }
 
 initializeMap().catch((error) =>
   console.error("Error initializing map:", error)
 );
-
-document
-  .getElementById("toggleCinemaCity")
-  .addEventListener("click", () => toggleLayer("cinemacity"));
-document
-  .getElementById("toggleHelios")
-  .addEventListener("click", () => toggleLayer("helios"));
-document
-  .getElementById("toggleMultikino")
-  .addEventListener("click", () => toggleLayer("multikino"));

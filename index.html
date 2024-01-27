@@ -12,7 +12,10 @@
   </head>
   <body>
     <header>
-      <h1>Mapa Kin w Polsce</h1>
+      <div id="logo">
+        <h1>Mapa Kin w Polsce</h1>
+        <button id="findNearestCinemas">Znajdź najbliższe kina</button>
+      </div>
       <nav>
         <div>
           <button id="toggleCinemaCity" data-layer="cinemacity">
@@ -40,6 +43,13 @@
       </aside>
     </header>
     <main>
+      <div id="cinema-list-container">
+        <div id="cinema-list-header">
+          <h2>Najbliższe kina</h2>
+          <button id="close-button">Close</button>
+        </div>
+        <ul id="cinema-list"></ul>
+      </div>
       <div id="map"></div>
       <div id="popup" class="bubble">
         <div id="popup-content"></div>
