@@ -27,6 +27,7 @@ const initializeGeolocation = (map) => {
     geolocation.on("change", () => {
         navigator.geolocation.getCurrentPosition(success, error, { enableHighAccuracy: true });
     });
+    console.log("lokalizacja:",geolocation);
 };
 
 export { currentLocation, initializeGeolocation };
