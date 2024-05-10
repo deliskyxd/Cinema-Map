@@ -5,7 +5,7 @@ import Point from "ol/geom/Point";
 import VectorSource from "ol/source/Vector";
 import VectorLayer from "ol/layer/Vector";
 
-export default async function createCinemaLayers(map, jsonFilePath) {
+const createCinemaLayers = async (map, jsonFilePath) => {
   const cinemaLayers = {};
   const allCinemas = [];
   try {
@@ -56,4 +56,6 @@ export default async function createCinemaLayers(map, jsonFilePath) {
 
     throw error;
   }
-}
+};
+
+export default createCinemaLayers;
