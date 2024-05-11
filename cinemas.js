@@ -41,7 +41,7 @@ const createCinemaFeatures = async (map, jsonFilePath) => {
       });
 
       const clusterSource = new Cluster({
-        distance: 50,
+        distance: 60,
         source: allCinemaSource,
       });
 

@@ -16,15 +16,17 @@ const createPopup = (map) => {
     });
 
     if (feature) {
-      const featureData = feature.getProperties();
+      const features = feature.get("features");
+      if (features.length === 1) {
+        const featureData = features[0].getProperties();
 
-      const featureCoordinate = feature.getGeometry().getCoordinates();
-      const mapSize = map.getSize();
-      const centerOfViewport = [mapSize[0] / 2, mapSize[1] / 2];
-      map.getView().centerOn(featureCoordinate, mapSize, centerOfViewport);
-      map.getView().fit(feature.getGeometry(), { minResolution: 60 });
-      map.getView().setZoom(15);
-      const content = `<h3>${featureData.cinema.name}</h3>
+        const featureCoordinate = feature.getGeometry().getCoordinates();
+        const mapSize = map.getSize();
+        const centerOfViewport = [mapSize[0] / 2, mapSize[1] / 2];
+        map.getView().centerOn(featureCoordinate, mapSize, centerOfViewport);
+        map.getView().fit(feature.getGeometry(), { minResolution: 60 });
+        map.getView().setZoom(15);
+        const content = `<h3>${featureData.cinema.name}</h3>
          <p>Adres: ${featureData.cinema.address}</p>
          <p>Telefon: ${featureData.cinema.contact.phone}</p>
          <p>Email: ${featureData.cinema.contact.email}</p>     
@@ -38,8 +40,9 @@ const createPopup = (map) => {
          </button> 
         `;
 
-      popupOverlay.setPosition(featureCoordinate);
-      document.getElementById("popup-content").innerHTML = content;
+        popupOverlay.setPosition(featureCoordinate);
+        document.getElementById("popup-content").innerHTML = content;
+      }
     } else {
       popupOverlay.setPosition(undefined);
     }
