@@ -12,19 +12,17 @@ import Point from "ol/geom/Point";
 import { Vector as VectorSource, Cluster } from "ol/source";
 import VectorLayer from "ol/layer/Vector";
 
-const createCinemaLayers = async (map, jsonFilePath) => {
-  const cinemaLayers = {};
+const createCinemaFeatures = async (map, jsonFilePath) => {
   const allCinemas = [];
+  let allCinemasLayer;
   try {
     const response = await fetch(jsonFilePath);
-    const cinemasData = await response.json();
-    const layerNames = Object.keys(cinemasData);
+    const data = await response.json();
+    const cinemaNames = Object.keys(data);
+    const allCinemaFeatures = [];
 
-    layerNames.forEach((layerName) => {
-      cinemaLayers[layerName] = new VectorLayer();
-      map.addLayer(cinemaLayers[layerName]);
-
-      const cinemaFeatures = cinemasData[layerName].map((cinema) => {
+    cinemaNames.forEach((cinemaName) => {
+      const cinemaFeatures = data[cinemaName].map((cinema) => {
         const point = new Feature({
           geometry: new Point(
             fromLonLat([cinema.location.longitude, cinema.location.latitude])
@@ -36,21 +34,34 @@ const createCinemaLayers = async (map, jsonFilePath) => {
         return point;
       });
 
-      const cinemaSource = new VectorSource({
-        features: cinemaFeatures,
+      allCinemaFeatures.push(...cinemaFeatures);
+
+      const allCinemaSource = new VectorSource({
+        features: allCinemaFeatures,
       });
 
       const clusterSource = new Cluster({
         distance: 50,
-        source: cinemaSource,
+        source: allCinemaSource,
       });
 
-      cinemaLayers[layerName] = new VectorLayer({
+      allCinemasLayer = new VectorLayer({
         source: clusterSource,
-        style: function (feature) {
+        style: (feature) => {
           const size = feature.get("features").length;
           let style = feature.get("features")[0].getStyle();
 
+          let cinemaName = feature
+            .get("features")[0]
+            .get("cinema")
+            .name.toLowerCase();
+          let words = cinemaName.split(" ");
+
+          if (words[0] === "cinema") {
+            cinemaName = words[0] + words[1];
+          } else {
+            cinemaName = words[0];
+          }
           if (size > 1) {
             style = new Style({
               image: new CircleStyle({
@@ -69,7 +80,7 @@ const createCinemaLayers = async (map, jsonFilePath) => {
                 anchor: [0.5, 46],
                 anchorXUnits: "fraction",
                 anchorYUnits: "pixels",
-                src: `./images/${layerName}logo.png`,
+                src: `./images/${cinemaName}logo.png`,
                 scale: 0.05,
               }),
             });
@@ -77,11 +88,9 @@ const createCinemaLayers = async (map, jsonFilePath) => {
           return style;
         },
       });
-
-      map.addLayer(cinemaLayers[layerName]);
     });
-
-    return { cinemaLayers, allCinemas };
+    map.addLayer(allCinemasLayer);
+    return { allCinemasLayer, allCinemas };
   } catch (error) {
     console.error("Error fetching JSON file:", error);
 
@@ -89,4 +98,4 @@ const createCinemaLayers = async (map, jsonFilePath) => {
   }
 };
 
-export default createCinemaLayers;
+export default createCinemaFeatures;

@@ -3,20 +3,10 @@ import { Map, View } from "ol";
 import TileLayer from "ol/layer/Tile";
 import OSM from "ol/source/OSM";
 import { fromLonLat, transformExtent } from "ol/proj";
-import createCinemaLayers from "./cinemas";
+import createCinemaFeatures from "./cinemas";
 import createPopup from "./popup";
 import { currentLocation, initializeGeolocation } from "./geolocation";
 import { toggleLayer, findNearestCinemas } from "./functions";
-import { Cluster, Vector as VectorSource } from "ol/source";
-import VectorLayer from "ol/layer/Vector";
-import {
-  Circle as CircleStyle,
-  Fill,
-  Stroke,
-  Style,
-  Text,
-  Icon,
-} from "ol/style";
 
 const borders = transformExtent(
   [9.173, 46.21, 29.631, 58.279],
@@ -53,8 +43,8 @@ const jsonFilePath = "./data/cinemas.json";
 let cinemaLayers;
 let allCinemas = [];
 async function initializeMap() {
-  const result = await createCinemaLayers(map, jsonFilePath);
-  cinemaLayers = result.cinemaLayers;
+  const result = await createCinemaFeatures(map, jsonFilePath);
+  cinemaLayers = result.allCinemasLayer;
   allCinemas = result.allCinemas;
   createPopup(map);
   initializeGeolocation(map);
