@@ -11,6 +11,7 @@ import { fromLonLat } from "ol/proj";
 import Point from "ol/geom/Point";
 import { Vector as VectorSource, Cluster } from "ol/source";
 import VectorLayer from "ol/layer/Vector";
+import { getCinemaName } from "./functions";
 
 const createCinemaFeatures = async (map, jsonFilePath) => {
   const allCinemas = [];
@@ -51,17 +52,6 @@ const createCinemaFeatures = async (map, jsonFilePath) => {
           const size = feature.get("features").length;
           let style = feature.get("features")[0].getStyle();
 
-          let cinemaName = feature
-            .get("features")[0]
-            .get("cinema")
-            .name.toLowerCase();
-          let words = cinemaName.split(" ");
-
-          if (words[0] === "cinema") {
-            cinemaName = words[0] + words[1];
-          } else {
-            cinemaName = words[0];
-          }
           if (size > 1) {
             style = new Style({
               image: new CircleStyle({
@@ -80,7 +70,7 @@ const createCinemaFeatures = async (map, jsonFilePath) => {
                 anchor: [0.5, 46],
                 anchorXUnits: "fraction",
                 anchorYUnits: "pixels",
-                src: `./images/${cinemaName}logo.png`,
+                src: `./images/${getCinemaName(feature)}logo.png`,
                 scale: 0.05,
               }),
             });
