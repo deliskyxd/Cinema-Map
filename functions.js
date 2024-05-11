@@ -2,19 +2,44 @@ import { toLonLat } from "ol/proj";
 import { getDistance } from "ol/sphere";
 import { fromLonLat } from "ol/proj";
 
-const toggleLayer = (map, cinemaLayers, layerName) => {
-  const cinemaLayer = cinemaLayers[layerName];
-  const layers = map.getLayers().getArray();
-
-  layers.includes(cinemaLayer)
-    ? map.removeLayer(cinemaLayer)
-    : map.addLayer(cinemaLayer);
-
-  const button = document.querySelector(`button[data-layer="${layerName}"]`);
-  if (button) {
-    const isLayerVisible = layers.includes(cinemaLayer);
-    button.classList.toggle("grayed-out", !isLayerVisible);
+const getCinemaName = (feature) => {
+  let cinemaName;
+  if (!feature.get("features")) {
+    cinemaName = feature.get("cinema").name.toLowerCase();
+  } else {
+    cinemaName = feature.get("features")[0].get("cinema").name.toLowerCase();
   }
+  let words = cinemaName.split(" ");
+
+  if (words[0] === "cinema") {
+    cinemaName = words[0] + words[1];
+  } else {
+    cinemaName = words[0];
+  }
+
+  return cinemaName;
+};
+
+const toggleCinema = (allCinemasLayer, allCinemas, cinemaBrand) => {
+  const button = document.querySelector(`button[brand="${cinemaBrand}"]`);
+  if (!button) return;
+
+  const allCinemasFromBrand = allCinemas.filter(
+    (feature) => getCinemaName(feature) === cinemaBrand
+  );
+
+  const source = allCinemasLayer.getSource().getSource();
+
+  if (button.classList.contains("grayed-out")) {
+    source.addFeatures(allCinemasFromBrand);
+  } else {
+    allCinemasFromBrand.forEach((feature) => {
+      source.removeFeature(feature);
+    });
+  }
+  allCinemasLayer.getSource().refresh();
+
+  button.classList.toggle("grayed-out");
 };
 
 const findNearestCinemas = (map, location, allCinemas, amount) => {
@@ -68,4 +93,4 @@ const findNearestCinemas = (map, location, allCinemas, amount) => {
   }
 };
 
-export { toggleLayer, findNearestCinemas };
+export { toggleCinema, findNearestCinemas, getCinemaName };

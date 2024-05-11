@@ -3,10 +3,10 @@ import { Map, View } from "ol";
 import TileLayer from "ol/layer/Tile";
 import OSM from "ol/source/OSM";
 import { fromLonLat, transformExtent } from "ol/proj";
-import createCinemaLayers from "./cinemas";
+import createCinemaFeatures from "./cinemas";
 import createPopup from "./popup";
 import { currentLocation, initializeGeolocation } from "./geolocation";
-import { toggleLayer, findNearestCinemas } from "./functions";
+import { toggleCinema, findNearestCinemas } from "./functions";
 
 const borders = transformExtent(
   [9.173, 46.21, 29.631, 58.279],
@@ -40,43 +40,39 @@ map.on("pointermove", function (e) {
 
 const jsonFilePath = "./data/cinemas.json";
 
-let cinemaLayers;
-let allCinemas = [];
-async function initializeMap() {
-  const result = await createCinemaLayers(map, jsonFilePath);
-  cinemaLayers = result.cinemaLayers;
-  allCinemas = result.allCinemas;
+const initializeMap = async () => {
+  const result = await createCinemaFeatures(map, jsonFilePath);
   createPopup(map);
   initializeGeolocation(map);
 
   document
     .getElementById("findNearestCinemas")
     .addEventListener("click", () =>
-      findNearestCinemas(map, currentLocation, allCinemas, 5)
+      findNearestCinemas(map, currentLocation, result.allCinemas, 5)
     );
 
   document
     .getElementById("toggleCinemaCity")
     .addEventListener("click", () =>
-      toggleLayer(map, cinemaLayers, "cinemacity")
+      toggleCinema(result.allCinemasLayer, result.allCinemas, "cinemacity")
     );
 
   document
     .getElementById("toggleHelios")
-    .addEventListener("click", () => toggleLayer(map, cinemaLayers, "helios"));
+    .addEventListener("click", () =>
+      toggleCinema(result.allCinemasLayer, result.allCinemas, "helios")
+    );
 
   document
     .getElementById("toggleMultikino")
     .addEventListener("click", () =>
-      toggleLayer(map, cinemaLayers, "multikino")
+      toggleCinema(result.allCinemasLayer, result.allCinemas, "multikino")
     );
 
-  document
-    .getElementById("close-button")
-    .addEventListener("click", function () {
-      document.getElementById("cinema-list-container").style.display = "none";
-    });
-}
+  document.getElementById("close-button").addEventListener("click", () => {
+    document.getElementById("cinema-list-container").style.display = "none";
+  });
+};
 
 initializeMap().catch((error) =>
   console.error("Error initializing map:", error)
