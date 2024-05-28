@@ -16,3 +16,17 @@ To generate a build ready for production:
     npm run build
 
 Then deploy the contents of the `dist` directory to your server.  You can also run `npm run serve` to serve the results of the `dist` directory for preview.
+
+# author
+
+> [!NOTE]
+> parsing the json + getting the photos for them -> cinemas.js
+
+
+TO-DO:
+- [x] create a mysql database to store the database (docker-compose)
+- [ ] create a table to store the cinemas data
+- [x] create a golang server (Dockerfile)
+- [ ] make the golang server serve the json file with an api
+- [ ] 
+
