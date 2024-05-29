@@ -1,11 +1,15 @@
 package connect
 
-import "database/sql"
+import (
+	"database/sql"
+)
 
 var DB *sql.DB
 
 func Connect() {
-	db, err := sql.Open("mysql", "root:root@tcp(127.0.0.1:3306)/kina")
+	// root:@tcp(localhost:3307)/gofilemanager?charset=utf8&parseTime=True&loc=Local
+	// 172.17.0.1 - docker host
+	db, err := sql.Open("mysql", "root:root@tcp(172.17.0.1:3307)/kina")
 	if err != nil {
 		panic("failed to connect database")
 	}

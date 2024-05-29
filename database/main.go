@@ -58,12 +58,14 @@ func main() {
 	// connect to the database
 	fmt.Println("Hello, World!")
 	connect.Connect()
+	defer connect.DB.Close()
 
 	// start the web server
 	server := http.NewServeMux()
 
 	// get all cinemas
 	server.HandleFunc("/cinemas/helios", func(w http.ResponseWriter, r *http.Request) {
+		fmt.Println("GET /cinemas/helios")
 		var cinemas []Cinema
 		cinemas = getCinemas("helios")
 		encoding, err := json.Marshal(cinemas)
@@ -75,6 +77,7 @@ func main() {
 
 	// get a cinema by name
 	server.HandleFunc("/cinemas/multikino", func(w http.ResponseWriter, r *http.Request) {
+		fmt.Println("GET /cinemas/multikino")
 		var cinemas []Cinema
 		cinemas = getCinemas("multikino")
 		encoding, err := json.Marshal(cinemas)
@@ -85,6 +88,7 @@ func main() {
 	})
 
 	server.HandleFunc("/cinemas/cinemacity", func(w http.ResponseWriter, r *http.Request) {
+		fmt.Println("GET /cinemas/cinemacity")
 		var cinemas []Cinema
 		cinemas = getCinemas("cinema_city")
 		encoding, err := json.Marshal(cinemas)
