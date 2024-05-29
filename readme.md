@@ -1,3 +1,21 @@
+# TO-DO:
+- [x] create a mysql database to store the database (docker-compose)
+- [ ] create a table to store the cinemas data
+
+- [x] create a golang server (Dockerfile)
+- [ ] make an endpoint in golang that returns the cinemas data in json format (GET /cinemas)
+## optional:
+- [ ] pass a ready OpenLayers build to the golang server (?)
+
+---
+
+# Overview ( for now )
+
+To run the app simply run the following command:
+```bash
+sudo make
+```
+
 # OpenLayers + Vite
 
 This example demonstrates how the `ol` package can be used with [Vite](https://vitejs.dev/).
@@ -21,12 +39,3 @@ Then deploy the contents of the `dist` directory to your server.  You can also r
 
 > [!NOTE]
 > parsing the json + getting the photos for them -> cinemas.js
-
-
-TO-DO:
-- [x] create a mysql database to store the database (docker-compose)
-- [ ] create a table to store the cinemas data
-- [x] create a golang server (Dockerfile)
-- [ ] make the golang server serve the json file with an api
-- [ ] 
-

@@ -3,1826 +3,1306 @@
         {
             "name": "Helios Bełchatów",
             "address": "ul.Kolejowa 6, Bełchatów",
-            "contact": {
-                "phone": "+48 44 715 95 60",
-                "email": "belchatow@helios.pl"
-            },
+            "phone": "+48 44 715 95 60",
+            "email": "belchatow@helios.pl",
             "schedule_link": "https://www.helios.pl/37,Belchatow/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 51.3535140708787,
-                "longitude": 19.376050568701626
-            }
+            "latitude": 51.3535140708787,
+            "longitude": 19.376050568701626
         },
         {
             "name": "Helios Białystok Alfa",
             "address": "ul. Świętojańska 15, Białystok",
-            "contact": {
-                "phone": "+48 85 741 13 56",
-                "email": "alfabialystok@helios.pl"
-            },
+            "phone": "+48 85 741 13 56",
+            "email": "alfabialystok@helios.pl",
             "schedule_link": "https://www.helios.pl/26,Bialystok/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 53.125620296039685,
-                "longitude": 23.169040091508897
-            }
+            "latitude": 53.125620296039685,
+            "longitude": 23.169040091508897
         },
         {
             "name": "Helios Białystok Biała",
             "address": "ul. Czesława Miłosza 2, Białystok",
-            "contact": {
-                "phone": "+48 85 710 91 72",
-                "email": "bialystok@helios.pl"
-            },
+            "phone": "+48 85 710 91 72",
+            "email": "bialystok@helios.pl",
             "schedule_link": "https://www.helios.pl/6,Bialystok/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 53.12231763353874,
-                "longitude": 23.177372572722625
-            }
+            "latitude": 53.12231763353874,
+            "longitude": 23.177372572722625
         },
         {
             "name": "Helios Białystok Jurowiecka",
             "address": "ul. Jurowiecka 1, Białystok",
-            "contact": {
-                "phone": "+48 85 871 01 14",
-                "email": "bialystok.jurowiecka@helios.pl"
-            },
+            "phone": "+48 85 871 01 14",
+            "email": "bialystok.jurowiecka@helios.pl",
             "schedule_link": "https://www.helios.pl/46,Bialystok/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 53.13682289758407,
-                "longitude": 23.162460048608864
-            }
+            "latitude": 53.13682289758407,
+            "longitude": 23.162460048608864
         },
         {
             "name": "Helios Bielsko-Biała",
             "address": "ul. Mostowa 5, Bielsko-Biała",
-            "contact": {
-                "phone": "+48 33 498 70 12",
-                "email": "bielsko@helios.pl"
-            },
+            "phone": "+48 33 498 70 12",
+            "email": "bielsko@helios.pl",
             "schedule_link": "https://www.helios.pl/7,Bielsko-Biala/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 49.82745621898707,
-                "longitude": 19.04967177980713
-            }
+            "latitude": 49.82745621898707,
+            "longitude": 19.04967177980713
         },
         {
             "name": "Helios Bydgoszcz",
             "address": "ul. Fordońska 141, Bydgoszcz",
-            "contact": {
-                "phone": "+48 52 581 00 63",
-                "email": "bydgoszcz@helios.pl"
-            },
+            "phone": "+48 52 581 00 63",
+            "email": "bydgoszcz@helios.pl",
             "schedule_link": "https://www.helios.pl/38,Bydgoszcz/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 53.12593879791866,
-                "longitude": 18.067248002362426
-            }
+            "latitude": 53.12593879791866,
+            "longitude": 18.067248002362426
         },
         {
             "name": "Helios Gdańsk Forum",
             "address": "Targ Sienny 7, Gdańsk",
-            "contact": {
-                "phone": "+48 58 732 96 07",
-                "email": "gdansk.forum@helios.pl"
-            },
+            "phone": "+48 58 732 96 07",
+            "email": "gdansk.forum@helios.pl",
             "schedule_link": "https://www.helios.pl/58,Gdansk/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 54.34846690167877,
-                "longitude": 18.644202064718133
-            }
+            "latitude": 54.34846690167877,
+            "longitude": 18.644202064718133
         },
         {
             "name": "Helios Gdańsk Alfa",
             "address": "ul. Kołobrzeska 41C, Gdańsk",
-            "contact": {
-                "phone": "+48 58 767 99 82",
-                "email": "gdansk@helios.pl"
-            },
+            "phone": "+48 58 767 99 82",
+            "email": "gdansk@helios.pl",
             "schedule_link": "https://www.helios.pl/2,Gdansk/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 54.404192572607286,
-                "longitude": 18.5866502443354
-            }
+            "latitude": 54.404192572607286,
+            "longitude": 18.5866502443354
         },
         {
             "name": "Helios Gdańsk Metropolia",
             "address": "ul. Kilińskiego 4, Gdańsk",
-            "contact": {
-                "phone": "+48 58 731 13 96",
-                "email": "gdansk.metropolia@helios.pl"
-            },
+            "phone": "+48 58 731 13 96",
+            "email": "gdansk.metropolia@helios.pl",
             "schedule_link": "https://www.helios.pl/49,Gdansk/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 54.38274130256126,
-                "longitude": 18.605643436555503
-            }
+            "latitude": 54.38274130256126,
+            "longitude": 18.605643436555503
         },
         {
             "name": "Helios Dąbrowa Górnicza",
             "address": "ul. Jana III Sobieskiego 6, Dąbrowa Górnicza",
-            "contact": {
-                "phone": "+48 32 262 32 19",
-                "email": "dabrowa@helios.pl"
-            },
+            "phone": "+48 32 262 32 19",
+            "email": "dabrowa@helios.pl",
             "schedule_link": "https://www.helios.pl/27,Dabrowa-Gornicza/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 50.327649035633165,
-                "longitude": 19.182274958903243
-            }
+            "latitude": 50.327649035633165,
+            "longitude": 19.182274958903243
         },
         {
             "name": "Helios Gdynia",
             "address": "ul. Kazimierza Górskiego 2, Gdynia",
-            "contact": {
-                "phone": "+48 58 779 00 01",
-                "email": "gdynia@helios.pl"
-            },
+            "phone": "+48 58 779 00 01",
+            "email": "gdynia@helios.pl",
             "schedule_link": "https://www.helios.pl/42,Gdynia/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 54.5050430092195,
-                "longitude": 18.53197873261705
-            }
+            "latitude": 54.5050430092195,
+            "longitude": 18.53197873261705
         },
         {
             "name": "Helios Gniezno",
             "address": "ul. Pałucka 2, Gniezno",
-            "contact": {
-                "phone": "+48 61 426 66 19",
-                "email": "gniezno@helios.pl"
-            },
+            "phone": "+48 61 426 66 19",
+            "email": "gniezno@helios.pl",
             "schedule_link": "https://www.helios.pl/9,Gniezno/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 52.561063486990086,
-                "longitude": 17.612547353413003
-            }
+            "latitude": 52.561063486990086,
+            "longitude": 17.612547353413003
         },
         {
             "name": "Helios Gorzów Wielkopolski",
             "address": "Al. Konstytucji 3 Maja 102, Gorzów Wielkopolski",
-            "contact": {
-                "phone": "+48 95 737 27 37",
-                "email": "gorzow@helios.pl"
-            },
+            "phone": "+48 95 737 27 37",
+            "email": "gorzow@helios.pl",
             "schedule_link": "https://www.helios.pl/10,Gorzow-Wielkopolski/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 52.73105117411271,
-                "longitude": 15.224719083948406
-            }
+            "latitude": 52.73105117411271,
+            "longitude": 15.224719083948406
         },
         {
             "name": "Helios Grudziądz",
             "address": "ul. Chełmińska 4, Grudziądz",
-            "contact": {
-                "phone": "+48 56 643 12 13",
-                "email": "grudziadz@helios.pl"
-            },
+            "phone": "+48 56 643 12 13",
+            "email": "grudziadz@helios.pl",
             "schedule_link": "https://www.helios.pl/32,Grudziadz/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 53.48439312964071,
-                "longitude": 18.747650627941585
-            }
+            "latitude": 53.48439312964071,
+            "longitude": 18.747650627941585
         },
         {
             "name": "Helios Jelenia Góra",
             "address": "Al. Jana Pawła II 51, elenia Góra",
-            "contact": {
-                "phone": "+48 75 769 38 65",
-                "email": "jelenia.gora@helios.pl"
-            },
+            "phone": "+48 75 769 38 65",
+            "email": "jelenia.gora@helios.pl",
             "schedule_link": "https://www.helios.pl/45,Jelenia-Gora/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 50.922159591763496,
-                "longitude": 15.763085060166201
-            }
+            "latitude": 50.922159591763496,
+            "longitude": 15.763085060166201
         },
         {
             "name": "Helios Kalisz",
             "address": "ul. Górnośląska 82, Kalisz",
-            "contact": {
-                "phone": "+48 62 761 18 67",
-                "email": "kalisz@helios.pl"
-            },
+            "phone": "+48 62 761 18 67",
+            "email": "kalisz@helios.pl",
             "schedule_link": "https://www.helios.pl/40,Kalisz/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 51.7442874799184,
-                "longitude": 18.070156828236243
-            }
+            "latitude": 51.7442874799184,
+            "longitude": 18.070156828236243
         },
         {
             "name": "Helios Katowice",
             "address": "ul. Kościuszki 229, Katowice",
-            "contact": {
-                "phone": "+48 32 721 20 70",
-                "email": "katowice@helios.pl"
-            },
+            "phone": "+48 32 721 20 70",
+            "email": "katowice@helios.pl",
             "schedule_link": "https://www.helios.pl/51,Katowice/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 50.223955385064286,
-                "longitude": 18.98771066993626
-            }
+            "latitude": 50.223955385064286,
+            "longitude": 18.98771066993626
         },
         {
             "name": "Helios Kędzierzyn-Koźle",
             "address": "Al. Armii Krajowej 38, Kędzierzyn-Koźle",
-            "contact": {
-                "phone": "+48 77 545 83 36",
-                "email": "kedzierzyn@helios.pl"
-            },
+            "phone": "+48 77 545 83 36",
+            "email": "kedzierzyn@helios.pl",
             "schedule_link": "https://www.helios.pl/34,Kedzierzyn-Kozle/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 50.34209364936955,
-                "longitude": 18.19106578354544
-            }
+            "latitude": 50.34209364936955,
+            "longitude": 18.19106578354544
         },
         {
             "name": "Helios Kielce",
             "address": "ul. Świętokrzyska 20, Kielce",
-            "contact": {
-                "phone": "+48 41 332 13 30",
-                "email": "kielce@helios.pl"
-            },
+            "phone": "+48 41 332 13 30",
+            "email": "kielce@helios.pl",
             "schedule_link": "https://www.helios.pl/13,Kielce/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 50.88051972326799,
-                "longitude": 20.64768284083923
-            }
+            "latitude": 50.88051972326799,
+            "longitude": 20.64768284083923
         },
         {
             "name": "Helios Konin",
             "address": "ul. Paderewskiego 8, Konin",
-            "contact": {
-                "phone": "+48 63 242 02 67",
-                "email": "konin@helios.pl"
-            },
+            "phone": "+48 63 242 02 67",
+            "email": "konin@helios.pl",
             "schedule_link": "https://www.helios.pl/14,Konin/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 52.238404071991454,
-                "longitude": 18.259646868740067
-            }
+            "latitude": 52.238404071991454,
+            "longitude": 18.259646868740067
         },
         {
             "name": "Helios Koszalin",
             "address": "ul. Jana Pawła II 20, Koszalin",
-            "contact": {
-                "phone": "+48 94 711 01 67",
-                "email": "koszalin@helios.pl"
-            },
+            "phone": "+48 94 711 01 67",
+            "email": "koszalin@helios.pl",
             "schedule_link": "https://www.helios.pl/68,Koszalin/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 54.206943239819026,
-                "longitude": 16.185775278922357
-            }
+            "latitude": 54.206943239819026,
+            "longitude": 16.185775278922357
         },
         {
             "name": "Helios Krosno",
             "address": "ul. Bieszczadzka 29, Krosno",
-            "contact": {
-                "phone": "+48 13 495 12 50",
-                "email": "krosno@helios.pl"
-            },
+            "phone": "+48 13 495 12 50",
+            "email": "krosno@helios.pl",
             "schedule_link": "https://www.helios.pl/55,Krosno/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 49.67713010054,
-                "longitude": 21.77613533871067
-            }
+            "latitude": 49.67713010054,
+            "longitude": 21.77613533871067
         },
         {
             "name": "Helios Legionowo",
             "address": "Piłsudskiego 31C, Legionowo",
-            "contact": {
-                "phone": "+48 22 206 38 12",
-                "email": "legionowo@helios.pl"
-            },
+            "phone": "+48 22 206 38 12",
+            "email": "legionowo@helios.pl",
             "schedule_link": "https://www.helios.pl/61,Legionowo/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 52.396487556051085,
-                "longitude": 20.933348947145888
-            }
+            "latitude": 52.396487556051085,
+            "longitude": 20.933348947145888
         },
         {
             "name": "Helios Legnica",
             "address": "ul. Najświętszej Marii Panny 9, Legnica",
-            "contact": {
-                "phone": "+48 76 862 00 80",
-                "email": "legnica@helios.pl"
-            },
+            "phone": "+48 76 862 00 80",
+            "email": "legnica@helios.pl",
             "schedule_link": "https://www.helios.pl/30,Legnica/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 51.209485324657734,
-                "longitude": 16.16433739326696
-            }
+            "latitude": 51.209485324657734,
+            "longitude": 16.16433739326696
         },
         {
             "name": "Helios Lubin",
             "address": "ul. Generała Władysława Sikorskiego 20, Lubin",
-            "contact": {
-                "phone": "+48 76 724 97 90",
-                "email": "lubin@helios.pl"
-            },
+            "phone": "+48 76 724 97 90",
+            "email": "lubin@helios.pl",
             "schedule_link": "https://www.helios.pl/31,Lubin/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 51.39402893877838,
-                "longitude": 16.205964236593726
-            }
+            "latitude": 51.39402893877838,
+            "longitude": 16.205964236593726
         },
         {
             "name": "Helios Łomża",
             "address": "al. Legionów 46, Łomża",
-            "contact": {
-                "phone": "+48 86 224 14 06",
-                "email": "lomza@helios.pl"
-            },
+            "phone": "+48 86 224 14 06",
+            "email": "lomza@helios.pl",
             "schedule_link": "https://www.helios.pl/67,Lomza/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 53.17296520909119,
-                "longitude": 22.067008587110223
-            }
+            "latitude": 53.17296520909119,
+            "longitude": 22.067008587110223
         },
         {
             "name": "Helios Łódź",
             "address": "Al. Politechniki 1, Łódź",
-            "contact": {
-                "phone": "+48 42 299 92 72",
-                "email": "lodz.sukcesja@helios.pl"
-            },
+            "phone": "+48 42 299 92 72",
+            "email": "lodz.sukcesja@helios.pl",
             "schedule_link": "https://www.helios.pl/47,Lodz/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 51.74974957854736,
-                "longitude": 19.44845429940128
-            }
+            "latitude": 51.74974957854736,
+            "longitude": 19.44845429940128
         },
         {
             "name": "Helios Nowy Sącz",
             "address": "ul. Lwowska 80, Nowy Sącz",
-            "contact": {
-                "phone": "+48 18 440 11 73",
-                "email": "nowy.sacz@helios.pl"
-            },
+            "phone": "+48 18 440 11 73",
+            "email": "nowy.sacz@helios.pl",
             "schedule_link": "https://www.helios.pl/39,Nowy-Sacz/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 49.62397222099489,
-                "longitude": 20.706033526862875
-            }
+            "latitude": 49.62397222099489,
+            "longitude": 20.706033526862875
         },
         {
             "name": "Helios Olsztyn",
             "address": "Al. Piłsudskiego 16, Olsztyn",
-            "contact": {
-                "phone": "+48 89 535 20 00",
-                "email": "olsztyn@helios.pl"
-            },
+            "phone": "+48 89 535 20 00",
+            "email": "olsztyn@helios.pl",
             "schedule_link": "https://www.helios.pl/16,Olsztyn/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 53.77711758782555,
-                "longitude": 20.482800511881003
-            }
+            "latitude": 53.77711758782555,
+            "longitude": 20.482800511881003
         },
         {
             "name": "Helios Opole",
             "address": "Wrocławska 152/154, Opole",
-            "contact": {
-                "phone": "+48 77 543 01 29",
-                "email": "opole.karolinka@helios.pl"
-            },
+            "phone": "+48 77 543 01 29",
+            "email": "opole.karolinka@helios.pl",
             "schedule_link": "https://www.helios.pl/66,Opole/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 50.681610469904875,
-                "longitude": 17.883255114554984
-            }
+            "latitude": 50.681610469904875,
+            "longitude": 17.883255114554984
         },
         {
             "name": "Helios Opole Solaris",
             "address": "Pl. Kopernika 17, Opole",
-            "contact": {
-                "phone": "+48 77 402 50 30",
-                "email": "opole@helios.pl"
-            },
+            "phone": "+48 77 402 50 30",
+            "email": "opole@helios.pl",
             "schedule_link": "https://www.helios.pl/17,Opole/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 50.67051852973646,
-                "longitude": 17.926130821033922
-            }
+            "latitude": 50.67051852973646,
+            "longitude": 17.926130821033922
         },
         {
             "name": "Helios Ostrów Wielkopolski",
             "address": "ul. Kaliska 120, Ostrów Wielkopolski",
-            "contact": {
-                "phone": "+48 62 590 25 27",
-                "email": "ostrow.wielkopolski@helios.pl"
-            },
+            "phone": "+48 62 590 25 27",
+            "email": "ostrow.wielkopolski@helios.pl",
             "schedule_link": "https://www.helios.pl/65,Ostrow-Wielkopolski/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 51.659367151931036,
-                "longitude": 17.84848600371626
-            }
+            "latitude": 51.659367151931036,
+            "longitude": 17.84848600371626
         },
         {
             "name": "Helios Pabianice",
             "address": "ul. Grobelna 8, Pabianice",
-            "contact": {
-                "phone": "+48 42 288 19 76",
-                "email": "pabianice@helios.pl"
-            },
+            "phone": "+48 42 288 19 76",
+            "email": "pabianice@helios.pl",
             "schedule_link": "https://www.helios.pl/60,Pabianice/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 51.66076326749611,
-                "longitude": 19.358502432172184
-            }
+            "latitude": 51.66076326749611,
+            "longitude": 19.358502432172184
         },
         {
             "name": "Helios Piła",
             "address": "Al. Powst. Wielkopolskich 99, Piła",
-            "contact": {
-                "phone": "+48 67 349 14 16",
-                "email": "pila@helios.pl"
-            },
+            "phone": "+48 67 349 14 16",
+            "email": "pila@helios.pl",
             "schedule_link": "https://www.helios.pl/28,Pila/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 53.15860509730956,
-                "longitude": 16.756921327721226
-            }
+            "latitude": 53.15860509730956,
+            "longitude": 16.756921327721226
         },
         {
             "name": "Helios Piotrków Trybunalski",
             "address": "ul. Słowackiego 123, Piotrków Trybunalski",
-            "contact": {
-                "phone": "+48 44 715 91 55",
-                "email": "piotrkow@helios.pl"
-            },
+            "phone": "+48 44 715 91 55",
+            "email": "piotrkow@helios.pl",
             "schedule_link": "https://www.helios.pl/19,Piotrkow-Trybunalski/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 51.411402739134196,
-                "longitude": 19.66739843071053
-            }
+            "latitude": 51.411402739134196,
+            "longitude": 19.66739843071053
         },
         {
             "name": "Helios Płock",
             "address": "ul. Wyszogrodzka 144, Płock",
-            "contact": {
-                "phone": "+48 24 363 34 46",
-                "email": "plock@helios.pl"
-            },
+            "phone": "+48 24 363 34 46",
+            "email": "plock@helios.pl",
             "schedule_link": "https://www.helios.pl/29,Plock/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 52.534932718369795,
-                "longitude": 19.75717812375217
-            }
+            "latitude": 52.534932718369795,
+            "longitude": 19.75717812375217
         },
         {
             "name": "Helios Poznań",
             "address": "ul. Pleszewska 1, Poznań",
-            "contact": {
-                "phone": "+48 61 622 72 97",
-                "email": "poznan@helios.pl"
-            },
+            "phone": "+48 61 622 72 97",
+            "email": "poznan@helios.pl",
             "schedule_link": "https://www.helios.pl/50,Poznan/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 52.397633597482546,
-                "longitude": 16.956290002662204
-            }
+            "latitude": 52.397633597482546,
+            "longitude": 16.956290002662204
         },
         {
             "name": "Helios Przemyśl",
             "address": "ul. Wojciecha Brudzewskiego 1, Przemyśl",
-            "contact": {
-                "phone": "+48 16 733 16 02",
-                "email": "przemysl@helios.pl"
-            },
+            "phone": "+48 16 733 16 02",
+            "email": "przemysl@helios.pl",
             "schedule_link": "https://www.helios.pl/52,Przemysl/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 49.790810150841395,
-                "longitude": 22.78321289870589
-            }
+            "latitude": 49.790810150841395,
+            "longitude": 22.78321289870589
         },
         {
             "name": "Helios Radom",
             "address": "ul. Poniatowskiego 5, Radom",
-            "contact": {
-                "phone": "+48 48 340 07 89",
-                "email": "radom@helios.pl"
-            },
+            "phone": "+48 48 340 07 89",
+            "email": "radom@helios.pl",
             "schedule_link": "https://www.helios.pl/20,Radom/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 51.39055196434273,
-                "longitude": 21.151998371702287
-            }
+            "latitude": 51.39055196434273,
+            "longitude": 21.151998371702287
         },
         {
             "name": "Helios Rzeszów Galeria Rzeszów",
             "address": "Al. Piłsudskiego 44, Rzeszów",
-            "contact": {
-                "phone": "+48 17 777 12 90",
-                "email": "galeriarzeszow@helios.pl"
-            },
+            "phone": "+48 17 777 12 90",
+            "email": "galeriarzeszow@helios.pl",
             "schedule_link": "https://www.helios.pl/36,Rzeszow/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 50.04185527883409,
-                "longitude": 21.998100661258473
-            }
+            "latitude": 50.04185527883409,
+            "longitude": 21.998100661258473
         },
         {
             "name": "Helios Rzeszów Powstańców W-wy",
             "address": "Al. Powstańców Warszawy 14, Rzeszów",
-            "contact": {
-                "phone": "+48 17 854 00 64",
-                "email": "rzeszow@helios.pl"
-            },
+            "phone": "+48 17 854 00 64",
+            "email": "rzeszow@helios.pl",
             "schedule_link": "https://www.helios.pl/21,Rzeszow/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 50.019116968082734,
-                "longitude": 21.990691782208824
-            }
+            "latitude": 50.019116968082734,
+            "longitude": 21.990691782208824
         },
         {
             "name": "Helios Siedlce",
             "address": "ul. Piłsudskiego 74, Siedlce",
-            "contact": {
-                "phone": "+48 25 786 35 80",
-                "email": "siedlce@helios.pl"
-            },
+            "phone": "+48 25 786 35 80",
+            "email": "siedlce@helios.pl",
             "schedule_link": "https://www.helios.pl/43,Siedlce/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 52.16904413968986,
-                "longitude": 22.269439015594813
-            }
+            "latitude": 52.16904413968986,
+            "longitude": 22.269439015594813
         },
         {
             "name": "Helios Sosnowiec",
             "address": "ul. Modrzejowska 32b, Sosnowiec",
-            "contact": {
-                "phone": "+48 32 363 14 14",
-                "email": "sosnowiec@helios.pl"
-            },
+            "phone": "+48 32 363 14 14",
+            "email": "sosnowiec@helios.pl",
             "schedule_link": "https://www.helios.pl/22,Sosnowiec/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 50.27547531452034,
-                "longitude": 19.13193933558235
-            }
+            "latitude": 50.27547531452034,
+            "longitude": 19.13193933558235
         },
         {
             "name": "Helios Stalowa Wola",
             "address": "ul. Fryderyka Chopina 42, Stalowa Wola",
-            "contact": {
-                "phone": "+48 15 306 11 36",
-                "email": "stalowa.wola@helios.pl"
-            },
+            "phone": "+48 15 306 11 36",
+            "email": "stalowa.wola@helios.pl",
             "schedule_link": "https://www.helios.pl/56,Stalowa-Wola/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 50.584336970158795,
-                "longitude": 22.064505363846038
-            }
+            "latitude": 50.584336970158795,
+            "longitude": 22.064505363846038
         },
         {
             "name": "Helios Starachowice",
             "address": "ul. Ks. Kardynała Stefana Wyszyńskiego 14, Starachowice",
-            "contact": {
-                "phone": "+48 41 262 97 05",
-                "email": "starachowice@helios.pl"
-            },
+            "phone": "+48 41 262 97 05",
+            "email": "starachowice@helios.pl",
             "schedule_link": "https://www.helios.pl/44,Starachowice/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 51.0364981340241,
-                "longitude": 21.087213427486994
-            }
+            "latitude": 51.0364981340241,
+            "longitude": 21.087213427486994
         },
         {
             "name": "Helios Szczecin CHR Kupiec",
             "address": "ul. Bolesława Krzywoustego 9-10, Szczecin",
-            "contact": {
-                "phone": "+48 91 485 12 36",
-                "email": "szczecin@helios.pl"
-            },
+            "phone": "+48 91 485 12 36",
+            "email": "szczecin@helios.pl",
             "schedule_link": "https://www.helios.pl/23,Szczecin/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 53.42662541981596,
-                "longitude": 14.542421371164693
-            }
+            "latitude": 53.42662541981596,
+            "longitude": 14.542421371164693
         },
         {
             "name": "Helios Szczecin Outlet Park",
             "address": "ul. Andrzeja Struga 42, Szczecin",
-            "contact": {
-                "phone": "+48 91 810 67 60",
-                "email": "szczecin.outletpark@helios.pl"
-            },
+            "phone": "+48 91 810 67 60",
+            "email": "szczecin.outletpark@helios.pl",
             "schedule_link": "https://www.helios.pl/35,Szczecin/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 53.38034755818751,
-                "longitude": 14.671247736743219
-            }
+            "latitude": 53.38034755818751,
+            "longitude": 14.671247736743219
         },
         {
             "name": "Helios Tczew",
             "address": "ul. Pomorska 1, Tczew",
-            "contact": {
-                "phone": "+48 58 777 26 17",
-                "email": "tczew@helios.pl"
-            },
+            "phone": "+48 58 777 26 17",
+            "email": "tczew@helios.pl",
             "schedule_link": "https://www.helios.pl/33,Tczew/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 54.09638902300392,
-                "longitude": 18.787588514850242
-            }
+            "latitude": 54.09638902300392,
+            "longitude": 18.787588514850242
         },
         {
             "name": "Helios Tomaszów Mazowiecki",
             "address": "ul. Warszawska 1, Tomaszów Mazowiecki",
-            "contact": {
-                "phone": "+48 44 737 01 47",
-                "email": "tomaszow@helios.pl"
-            },
+            "phone": "+48 44 737 01 47",
+            "email": "tomaszow@helios.pl",
             "schedule_link": "https://www.helios.pl/53,Tomaszow-Mazowiecki/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 51.53446337752163,
-                "longitude": 20.008136792951788
-            }
+            "latitude": 51.53446337752163,
+            "longitude": 20.008136792951788
         },
         {
             "name": "Helios Warszawa Blue City",
             "address": "Aleje Jerozolimskie 179, Warszawa",
-            "contact": {
-                "phone": "+48 22 206 38 17",
-                "email": "warszawa.bluecity@helios.pl"
-            },
+            "phone": "+48 22 206 38 17",
+            "email": "warszawa.bluecity@helios.pl",
             "schedule_link": "https://www.helios.pl/57,Warszawa/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 52.21249910307101,
-                "longitude": 20.955633117398957
-            }
+            "latitude": 52.21249910307101,
+            "longitude": 20.955633117398957
         },
         {
             "name": "Helios Wołomin",
             "address": "ul. Geodetów 2, Wołomin",
-            "contact": {
-                "phone": "+48 22 212 54 14",
-                "email": "wolomin@helios.pl"
-            },
+            "phone": "+48 22 212 54 14",
+            "email": "wolomin@helios.pl",
             "schedule_link": "https://www.helios.pl/54,Wolomin/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 52.35653688037137,
-                "longitude": 21.258070971164692
-            }
+            "latitude": 52.35653688037137,
+            "longitude": 21.258070971164692
         },
         {
             "name": "Helios Wrocław Aleja Bielany",
             "address": "ul. Czekoladowa 7-9, Bielany Wrocławskie, Kobierzyce",
-            "contact": {
-                "phone": "+48 71 712 10 42",
-                "email": "wroclaw.bielany@helios.pl"
-            },
+            "phone": "+48 71 712 10 42",
+            "email": "wroclaw.bielany@helios.pl",
             "schedule_link": "https://www.helios.pl/48,Wroclaw/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 51.048852242373556,
-                "longitude": 16.95993069514578
-            }
+            "latitude": 51.048852242373556,
+            "longitude": 16.95993069514578
         },
         {
             "name": "Helios Wrocław Magnolia Park",
             "address": "ul. Legnicka 58, Wrocław",
-            "contact": {
-                "phone": "+48 71 355 53 54",
-                "email": "wroclaw.legnicka@helios.pl"
-            },
+            "phone": "+48 71 355 53 54",
+            "email": "wroclaw.legnicka@helios.pl",
             "schedule_link": "https://www.helios.pl/3,Wroclaw/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 51.11819102658211,
-                "longitude": 16.987191275309165
-            }
+            "latitude": 51.11819102658211,
+            "longitude": 16.987191275309165
         },
         {
             "name": "Helios Żory",
             "address": "ul. Katowicka 10, Żory",
-            "contact": {
-                "phone": "+48 32 750 60 24",
-                "email": "zory@helios.pl"
-            },
+            "phone": "+48 32 750 60 24",
+            "email": "zory@helios.pl",
             "schedule_link": "https://www.helios.pl/64,Zory/Repertuar/",
             "imax_technology": false,
-            "location": {
-                "latitude": 50.045247689342105,
-                "longitude": 18.703396741533773
-            }
+            "latitude": 50.045247689342105,
+            "longitude": 18.703396741533773
         }
     ],
     "multikino": [
         {
             "name": "Multikino Gdańsk",
             "address": "al. Zwycięstwa 14, Gdańsk",
-            "contact": {
-                "phone": "+48 54 23 03 631",
-                "email": "gdansk@multikino.pl"
-            },
+            "phone": "+48 54 23 03 631",
+            "email": "gdansk@multikino.pl",
             "schedule_link": "https://multikino.pl/repertuar/gdansk/",
             "imax_technology": false,
-            "location": {
-                "latitude": 54.37212236607634,
-                "longitude": 18.627158613036855
-            }
+            "latitude": 54.37212236607634,
+            "longitude": 18.627158613036855
         },
         {
             "name": "Multikino Biała Podlaska",
             "address": "ul. Brzeska 21, Biała Podlaska",
-            "contact": {
-                "phone": "+48 41 267 23 87",
-                "email": "bialapodlaska@multikino.pl"
-            },
+            "phone": "+48 41 267 23 87",
+            "email": "bialapodlaska@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/biala-podlaska",
             "imax_technology": false,
-            "location": {
-                "latitude": 52.034403463238654,
-                "longitude":  23.123035141024296
-            }
+            "latitude": 52.034403463238654,
+            "longitude":  23.123035141024296
         },
         {
             "name": "Multikino Bydgoszcz",
             "address": "ul. Marszałka Focha 48, Bydgoszcz",
-            "contact": {
-                "phone": "+48 41 267 23 70",
-                "email": "bydgoszcz@multikino.pl"
-            },
+            "phone": "+48 41 267 23 70",
+            "email": "bydgoszcz@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/bydgoszcz",
             "imax_technology": false,
-            "location": {
-                "latitude": 53.12616554316124,
-                "longitude": 17.989407199939517
-            }
+            "latitude": 53.12616554316124,
+            "longitude": 17.989407199939517
         },
         {
             "name": "Multikino Czechowice-Dziedzice",
             "address": "ul. Legionów 83. Czechowice-Dziedzice",
-            "contact": {
-                "phone": "+48 41 26 72 368",
-                "email": "czechowicedziedzice@multikino.pl"
-            },
+            "phone": "+48 41 26 72 368",
+            "email": "czechowicedziedzice@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/czechowice-dziedzice",
             "imax_technology": false,
-            "location": {
-                "latitude": 49.912481536638005,
-                "longitude": 18.997366171164693
-            }
+            "latitude": 49.912481536638005,
+            "longitude": 18.997366171164693
         },
         {
             "name": "Multikino Elbląg",
             "address": "ul. płk. Stanisława Dąbka 152",
-            "contact": {
-                "phone": "+48 41 267 23 71",
-                "email": "elblag@multikino.pl"
-            },
+            "phone": "+48 41 267 23 71",
+            "email": "elblag@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/elblag",
             "imax_technology": false,
-            "location": {
-                "latitude": 54.185897570703744,
-                "longitude": 19.406303971164693
-            }
+            "latitude": 54.185897570703744,
+            "longitude": 19.406303971164693
         },
         {
             "name": "Multikino Głogów",
             "address": "ul. Piłsudskiego 19, Głogów",
-            "contact": {
-                "phone": "+48 41 267 23 90",
-                "email": "glogow@multikino.pl"
-            },
+            "phone": "+48 41 267 23 90",
+            "email": "glogow@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/glogow",
             "imax_technology": false,
-            "location": {
-                "latitude": 51.650155450960035,
-                "longitude": 16.054871156701093
-            }
+            "latitude": 51.650155450960035,
+            "longitude": 16.054871156701093
         },
         {
             "name": "Multikino Gorzów Wielkopolski",
             "address": "ul. kombatantów 30, Gorzów Wielkopolski",
-            "contact": {
-                "phone": "+48 41 267 23 90",
-                "email": "gorzow@multikino.pl"
-            },
+            "phone": "+48 41 267 23 90",
+            "email": "gorzow@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/gorzow-wielkopolski",
             "imax_technology": false,
-            "location": {
-                "latitude": 52.76103527893256,
-                "longitude": 15.260379700649477
-            }
+            "latitude": 52.76103527893256,
+            "longitude": 15.260379700649477
         },
         {
             "name": "Multikino Jaworzno",
             "address": "ul. Grunwaldzka 59, Jaworzno",
-            "contact": {
-                "phone": "+48 41 26 72 369",
-                "email": "jaworzno@multikino.pl"
-            },
+            "phone": "+48 41 26 72 369",
+            "email": "jaworzno@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/jaworzno",
             "imax_technology": false,
-            "location": {
-                "latitude": 50.20335806642576,
-                "longitude": 19.2687931
-            }
+            "latitude": 50.20335806642576,
+            "longitude": 19.2687931
         },
         {
             "name": "Multikino Kalisz",
             "address": "ul. 3 Maja 1, Kalisz",
-            "contact": {
-                "phone": "+48 41 267 23 84",
-                "email": "kalisz@multikino.pl"
-            },
+            "phone": "+48 41 267 23 84",
+            "email": "kalisz@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/kalisz",
             "imax_technology": false,
-            "location": {
-                "latitude": 51.76571080706539,
-                "longitude": 18.08779086714561
-            }
+            "latitude": 51.76571080706539,
+            "longitude": 18.08779086714561
         },
         {
             "name": "Multikino Katowice",
             "address": "ul. 3 Maja 30, Katowice",
-            "contact": {
-                "phone": "+48 41 26 72 361",
-                "email": "katowice@multikino.pl"
-            },
+            "phone": "+48 41 26 72 361",
+            "email": "katowice@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/katowice",
             "imax_technology": false,
-            "location": {
-                "latitude": 50.2587230928755,
-                "longitude": 19.016505542330144
-            }
+            "latitude": 50.2587230928755,
+            "longitude": 19.016505542330144
         },
         {
             "name": "Multikino Kielce",
             "address": "ul. Warszawska 26, Kielce",
-            "contact": {
-                "phone": "+48 54 23 03 635",
-                "email": "kielce@multikino.pl"
-            },
+            "phone": "+48 54 23 03 635",
+            "email": "kielce@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/kielce",
             "imax_technology": false,
-            "location": {
-                "latitude": 50.875691205184204,
-                "longitude": 20.635210400000002
-            }
+            "latitude": 50.875691205184204,
+            "longitude": 20.635210400000002
         },
         {
             "name": "Multikino Kłodzko",
             "address": "ul. Noworudzka 2, Kłodzko",
-            "contact": {
-                "phone": "+48 41 267 23 83",
-                "email": "klodzko@multikino.pl"
-            },
+            "phone": "+48 41 267 23 83",
+            "email": "klodzko@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/klodzko",
             "imax_technology": false,
-            "location": {
-                "latitude": 50.45397977577372, 
-                "longitude": 16.637643933359147
-            }
+            "latitude": 50.45397977577372, 
+            "longitude": 16.637643933359147
         },
         {
             "name": "Multikino Koszalin",
             "address": "ul. Paderewskiego 1, Koszalin",
-            "contact": {
-                "phone": "+48 41 26 72 364",
-                "email": "koszalin@multikino.pl"
-            },
+            "phone": "+48 41 26 72 364",
+            "email": "koszalin@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/koszalin",
             "imax_technology": false,
-            "location": {
-                "latitude": 54.176759419167105,
-                "longitude": 16.20078476321199
-            }
+            "latitude": 54.176759419167105,
+            "longitude": 16.20078476321199
         },
         {
             "name": "Multikino Kraków",
             "address": "Dobrego Pasterza 128, Kraków",
-            "contact": {
-                "phone": "+48 54 23 03 630",
-                "email": "krakow@multikino.pl"
-            },
+            "phone": "+48 54 23 03 630",
+            "email": "krakow@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/krakow",
             "imax_technology": false,
-            "location": {
-                "latitude": 50.088907823805,
-                "longitude": 19.984302636788012
-            }
+            "latitude": 50.088907823805,
+            "longitude": 19.984302636788012
         },
         {
             "name": "Multikino Leszno",
             "address": "Al. Konstytucji 3 Maja 12, Leszno",
-            "contact": {
-                "phone": "+48 441 267 23 86",
-                "email": "leszno@multikino.pl"
-            },
+            "phone": "+48 441 267 23 86",
+            "email": "leszno@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/leszno",
             "imax_technology": false,
-            "location": {
-                "latitude": 51.82578469999274,
-                "longitude": 16.599972671117065
-            }
+            "latitude": 51.82578469999274,
+            "longitude": 16.599972671117065
         },
         {
             "name": "Multikino Lublin",
             "address": "Aleja Spółdzielności Pracy 36B, Lublin",
-            "contact": {
-                "phone": "+48 41 26 72 367",
-                "email": "lublin@multikino.pl"
-            },
+            "phone": "+48 41 26 72 367",
+            "email": "lublin@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/lublin",
             "imax_technology": false,
-            "location": {
-                "latitude": 51.2672573356486,
-                "longitude": 22.57132672028951
-            }
+            "latitude": 51.2672573356486,
+            "longitude": 22.57132672028951
         },
         {
             "name": "Multikino Łódź",
             "address": "Al. Piłsudskiego 5, Łódź",
-            "contact": {
-                "phone": "+48 41 267 23 72",
-                "email": "lodz@multikino.pl"
-            },
+            "phone": "+48 41 267 23 72",
+            "email": "lodz@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/lodz",
             "imax_technology": false,
-            "location": {
-                "latitude": 51.759077915592414,
-                "longitude": 19.4605384312662
-            }
+            "latitude": 51.759077915592414,
+            "longitude": 19.4605384312662
         },
         {
             "name": "Multikino Mielec",
             "address": "ul. Powstańców Warszawy 4, Mielec",
-            "contact": {
-                "phone": "+48 41 267 23 93",
-                "email": "mielec@multikino.pl"
-            },
+            "phone": "+48 41 267 23 93",
+            "email": "mielec@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/mielec",
             "imax_technology": false,
-            "location": {
-                "latitude": 50.28837687056168,
-                "longitude": 21.459415557570853
-            }
+            "latitude": 50.28837687056168,
+            "longitude": 21.459415557570853
         },
         {
             "name": "Multikino Olsztyn",
             "address": "ul. Tuwima 26, Olsztyn",
-            "contact": {
-                "phone": "+48 41 267 23 73",
-                "email": "olsztyn@multikino.pl"
-            },
+            "phone": "+48 41 267 23 73",
+            "email": "olsztyn@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/olsztyn",
             "imax_technology": false,
-            "location": {
-                "latitude": 53.75394134133059,
-                "longitude": 20.48488854232939
-            }
+            "latitude": 53.75394134133059,
+            "longitude": 20.48488854232939
         },
         {
             "name": "Multikino Poznań 51",
             "address": "ul. Królowej Jadwigi 51, Poznań",
-            "contact": {
-                "phone": "+48 54 23 03 633",
-                "email": "poznan51@multikino.pl"
-            },
+            "phone": "+48 54 23 03 633",
+            "email": "poznan51@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/poznan-multikino-51",
             "imax_technology": false,
-            "location": {
-                "latitude": 52.39943294951617,
-                "longitude": 16.9290235
-            }
+            "latitude": 52.39943294951617,
+            "longitude": 16.9290235
         },
         {
             "name": "Multikino Poznań Stary Browar",
             "address": "ul. Półwiejska 42, Poznań",
-            "contact": {
-                "phone": "+48 41 267 23 74",
-                "email": "starybrowar@multikino.pl"
-            },
+            "phone": "+48 41 267 23 74",
+            "email": "starybrowar@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/poznan-stary-browar",
             "imax_technology": false,
-            "location": {
-                "latitude": 52.40282079850625,
-                "longitude": 16.924306400000766
-            }
+            "latitude": 52.40282079850625,
+            "longitude": 16.924306400000766
         },
         {
             "name": "Multikino Pruszków",
             "address": "ul. Sienkiewicza 19, Pruszków",
-            "contact": {
-                "phone": "+48 41 267 23 81",
-                "email": "pruszkow@multikino.pl"
-            },
+            "phone": "+48 41 267 23 81",
+            "email": "pruszkow@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/pruszkow",
             "imax_technology": false,
-            "location": {
-                "latitude": 52.16516209877899,
-                "longitude": 20.792842249143277
-            }
+            "latitude": 52.16516209877899,
+            "longitude": 20.792842249143277
         },
         {
             "name": "Multikino Radom",
             "address": "ul. Bolesława Chrobrego 1, Radom",
-            "contact": {
-                "phone": "+48 41 26 72 366",
-                "email": "radom@multikino.pl"
-            },
+            "phone": "+48 41 26 72 366",
+            "email": "radom@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/radom",
             "imax_technology": false,
-            "location": {
-                "latitude": 51.40534675915925,
-                "longitude": 21.154300835394498
-            }
+            "latitude": 51.40534675915925,
+            "longitude": 21.154300835394498
         },
         {
             "name": "Multikino Rumia",
             "address": "ul. Sabata 1, Rumia",
-            "contact": {
-                "phone": "+48 41 267 23 75",
-                "email": "rumia@multikino.pl"
-            },
+            "phone": "+48 41 267 23 75",
+            "email": "rumia@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/rumia",
             "imax_technology": false,
-            "location": {
-                "latitude": 54.563962191758044,
-                "longitude": 18.39156155013186
-            }
+            "latitude": 54.563962191758044,
+            "longitude": 18.39156155013186
         },
         {
             "name": "Multikino Rybnik",
             "address": "ul. Bolesława Chrobrego 1, Rybnik",
-            "contact": {
-                "phone": "+48 41 267 23 76",
-                "email": "rybnik@multikino.pl"
-            },
+            "phone": "+48 41 267 23 76",
+            "email": "rybnik@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/rybnik",
             "imax_technology": false,
-            "location": {
-                "latitude": 50.09436359295983,
-                "longitude": 18.543234599997355
-            }
+            "latitude": 50.09436359295983,
+            "longitude": 18.543234599997355
         },
         {
             "name": "Multikino Rzeszów",
             "address": "al. Kopisto 1, Rzeszów",
-            "contact": {
-                "phone": "+48 54 23 03 638",
-                "email": "rzeszow@multikino.pl"
-            },
+            "phone": "+48 54 23 03 638",
+            "email": "rzeszow@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/rzeszow",
             "imax_technology": false,
-            "location": {
-                "latitude": 50.02756337293523,
-                "longitude": 22.015870870290787
-            }
+            "latitude": 50.02756337293523,
+            "longitude": 22.015870870290787
         },
         {
             "name": "Multikino Słupsk",
             "address": "ul. Szczecińska 57, Słupsk",
-            "contact": {
-                "phone": "+48 41 267 23 77",
-                "email": "slupsk@multikino.pl"
-            },
+            "phone": "+48 41 267 23 77",
+            "email": "slupsk@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/slupsk",
             "imax_technology": false,
-            "location": {
-                "latitude": 54.45394326950538,
-                "longitude": 16.9921056
-            }
+            "latitude": 54.45394326950538,
+            "longitude": 16.9921056
         },
         {
             "name": "Multikino Sopot",
             "address": "ul. Boh. Monte Cassino 63, Sopot",
-            "contact": {
-                "phone": "+48 54 23 03 639",
-                "email": "sopot@multikino.pl"
-            },
+            "phone": "+48 54 23 03 639",
+            "email": "sopot@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/sopot",
             "imax_technology": false,
-            "location": {
-                "latitude": 54.445258125999736,
-                "longitude": 18.567887107220983
-            }
+            "latitude": 54.445258125999736,
+            "longitude": 18.567887107220983
         },
         {
             "name": "Multikino Szczecin",
             "address": "al. Wyzwolenia 18-20, Szczecin",
-            "contact": {
-                "phone": "+48 41 267 23 78",
-                "email": "szczecin@multikino.pl"
-            },
+            "phone": "+48 41 267 23 78",
+            "email": "szczecin@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/szczecin",
             "imax_technology": false,
-            "location": {
-                "latitude": 53.43373952896621,
-                "longitude": 14.555905286505915
-            }
+            "latitude": 53.43373952896621,
+            "longitude": 14.555905286505915
         },
         {
             "name": "Multikino Świdnica",
             "address": "ul. Westerplatte 29, Świdnica",
-            "contact": {
-                "phone": "+48 41 267 23 85",
-                "email": "swidnica@multikino.pl"
-            },
+            "phone": "+48 41 267 23 85",
+            "email": "swidnica@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/swidnica",
             "imax_technology": false,
-            "location": {
-                "latitude": 50.840749465335556,
-                "longitude": 16.49749680191636
-            }
+            "latitude": 50.840749465335556,
+            "longitude": 16.49749680191636
         },
         {
             "name": "Multikino Świnoujście",
             "address": "ul. Jarosława Dąbrowskiego 5, Świnoujście",
-            "contact": {
-                "phone": "+48 41 267 23 88",
-                "email": "swinoujscie@multikino.pl"
-            },
+            "phone": "+48 41 267 23 88",
+            "email": "swinoujscie@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/swinoujscie",
             "imax_technology": false,
-            "location": {
-                "latitude": 53.909904345214635,
-                "longitude": 14.246423303084335
-            }
+            "latitude": 53.909904345214635,
+            "longitude": 14.246423303084335
         },
         {
             "name": "Multikino Tarnów",
             "address": "ul. Krakowska 149/154, Tarnów",
-            "contact": {
-                "phone": "+48 41 267 23 92",
-                "email": "tarnow@multikino.pl"
-            },
+            "phone": "+48 41 267 23 92",
+            "email": "tarnow@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/tarnow",
             "imax_technology": false,
-            "location": {
-                "latitude": 50.00058262779079,
-                "longitude": 20.957632135574404
-            }
+            "latitude": 50.00058262779079,
+            "longitude": 20.957632135574404
         },
         {
             "name": "Multikino Tychy City Point",
             "address": "al. Jana Pawła II 16/18, Tychy",
-            "contact": {
-                "phone": "+48 54 23 03 634",
-                "email": "tychy@multikino.pl"
-            },
+            "phone": "+48 54 23 03 634",
+            "email": "tychy@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/tychy-city-point",
             "imax_technology": false,
-            "location": {
-                "latitude": 50.11162141987295,
-                "longitude": 18.987986899996137
-            }
+            "latitude": 50.11162141987295,
+            "longitude": 18.987986899996137
         },
         {
             "name": "Multikino Tychy Gemini Park",
             "address": "ul. Towarowa 2C, Tychy",
-            "contact": {
-                "phone": "+48 519 520 934",
-                "email": "TychyGemini@multikino.pl"
-            },
+            "phone": "+48 519 520 934",
+            "email": "TychyGemini@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/tychy-gemini-park",
             "imax_technology": false,
-            "location": {
-                "latitude": 50.097030546010096,
-                "longitude": 19.008535120444552
-            }
+            "latitude": 50.097030546010096,
+            "longitude": 19.008535120444552
         },
         {
             "name": "Multikino Warszawa Atrium Reduta",
             "address": "Aleje Jerozolimskie 148, Warszawa",
-            "contact": {
-                "phone": "+48 41 267 23 94",
-                "email": "reduta@multikino.pl"
-            },
+            "phone": "+48 41 267 23 94",
+            "email": "reduta@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/warszawa-atrium-reduta",
             "imax_technology": false,
-            "location": {
-                "latitude": 52.213152989946884,
-                "longitude": 20.951132945190448
-            }
+            "latitude": 52.213152989946884,
+            "longitude": 20.951132945190448
         },
         {
             "name": "Multikino Warszawa Atrium Targówek",
             "address": "ul. Głębocka 15, Warszawa",
-            "contact": {
-                "phone": "+48 41 26 72 362",
-                "email": "targowek@multikino.pl"
-            },
+            "phone": "+48 41 26 72 362",
+            "email": "targowek@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/warszawa-atrium-targowek",
             "imax_technology": false,
-            "location": {
-                "latitude": 52.30239199922756,
-                "longitude": 21.057580409359762
-            }
+            "latitude": 52.30239199922756,
+            "longitude": 21.057580409359762
         },
         {
             "name": "Multikino Warszawa Młociny",
             "address": "ul. Zgrupowania AK Kampinos 15, Warszawa",
-            "contact": {
-                "phone": "+48 41 26 72 382",
-                "email": "mlociny@multikino.pl"
-            },
+            "phone": "+48 41 26 72 382",
+            "email": "mlociny@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/warszawa-mlociny",
             "imax_technology": false,
-            "location": {
-                "latitude": 52.294780564143004,
-                "longitude": 20.930933312063026
-            }
+            "latitude": 52.294780564143004,
+            "longitude": 20.930933312063026
         },
         {
             "name": "Multikino Warszawa Ursynów",
             "address": "al. Komisji Edukacji Narodowej 60, Warszawa",
-            "contact": {
-                "phone": "+48 54 23 03 632",
-                "email": "ursynow@multikino.pl"
-            },
+            "phone": "+48 54 23 03 632",
+            "email": "ursynow@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/warszawa-ursynow",
             "imax_technology": false,
-            "location": {
-                "latitude": 52.149623191615646,
-                "longitude": 21.046763499998118
-            }
+            "latitude": 52.149623191615646,
+            "longitude": 21.046763499998118
         },
         {
             "name": "Multikino Warszawa Wola Park",
             "address": "ul. Górczewska 124, Warszawa",
-            "contact": {
-                "phone": "+48 41 267 23 79",
-                "email": "wola@multikino.pl"
-            },
+            "phone": "+48 41 267 23 79",
+            "email": "wola@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/warszawa-wola-park",
             "imax_technology": false,
-            "location": {
-                "latitude": 52.24172833679486,
-                "longitude": 20.932905700000003
-            }
+            "latitude": 52.24172833679486,
+            "longitude": 20.932905700000003
         },
         {
             "name": "Multikino Warszawa Złote Tarasy",
             "address": "ul. Złota 59, Warszawa",
-            "contact": {
-                "phone": "+48 41 26 72 360",
-                "email": "zlotetarasy@multikino.pl"
-            },
+            "phone": "+48 41 26 72 360",
+            "email": "zlotetarasy@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/warszawa-zlote-tarasy",
             "imax_technology": false,
-            "location": {
-                "latitude": 52.229383385715494,
-                "longitude": 21.001904142329394
-            }
+            "latitude": 52.229383385715494,
+            "longitude": 21.001904142329394
         },
         {
             "name": "Multikino Włocławek",
             "address": "ul. Pułaskiego 10-12, Włocławek",
-            "contact": {
-                "phone": "+48 54 23 03 637",
-                "email": "wloclawek@multikino.pl"
-            },
+            "phone": "+48 54 23 03 637",
+            "email": "wloclawek@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/wloclawek",
             "imax_technology": false,
-            "location": {
-                "latitude": 52.654720572926365,
-                "longitude": 19.06085475767062
-            }
+            "latitude": 52.654720572926365,
+            "longitude": 19.06085475767062
         },
         {
             "name": "Multikino Wrocław Pasaż Grunwaldzki",
             "address": "pl. Grunwaldzki 22, Wrocław",
-            "contact": {
-                "phone": "+48 54 23 03 636",
-                "email": "wroclawpasaz@multikino.pl"
-            },
+            "phone": "+48 54 23 03 636",
+            "email": "wroclawpasaz@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/wroclaw-pasaz-grunwaldzki",
             "imax_technology": false,
-            "location": {
-                "latitude": 51.11267026133811,
-                "longitude": 17.0592564
-            }
+            "latitude": 51.11267026133811,
+            "longitude": 17.0592564
         },
         {
             "name": "Multikino Zabrze",
             "address": "ul. Gdańska 18, Zabrze",
-            "contact": {
-                "phone": "+48 41 26 72 363",
-                "email": "zabrze@multikino.pl"
-            },
+            "phone": "+48 41 26 72 363",
+            "email": "zabrze@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/zabrze",
             "imax_technology": false,
-            "location": {
-                "latitude": 50.317292957203655,
-                "longitude": 18.7767766672993
-            }
+            "latitude": 50.317292957203655,
+            "longitude": 18.7767766672993
         },
         {
             "name": "Multikino Zgorzelec",
             "address": "ul. Armii Krajowej 52a, Zgorzelec",
-            "contact": {
-                "phone": "+48 41 267 23 80",
-                "email": "zgorzelec@multikino.pl"
-            },
+            "phone": "+48 41 267 23 80",
+            "email": "zgorzelec@multikino.pl",
             "schedule_link":"https://multikino.pl/repertuar/zgorzelec",
             "imax_technology": false,
-            "location": {
-                "latitude": 51.15295034642946,
-                "longitude": 15.026851471164694
-            }
+            "latitude": 51.15295034642946,
+            "longitude": 15.026851471164694
         }
     ],
     "cinemacity": [
         {
             "name": "Cinema City Bielsko Biała",
             "address": "Leszczyńska 20, 43-382 Bielsko-Biała",
-            "contact": {
-                "phone": "+48 33 485 39 39",
-                "email": "https://www.cinema-city.pl/kontakt"
-            },
+            "phone": "+48 33 485 39 39",
+            "email": "https://www.cinema-city.pl/kontakt",
             "schedule_link": "https://www.cinema-city.pl/kina/bielsko-biala",
             "imax_technology": false,
-            "location": {
-                "latitude": 49.80247716478286,
-                "longitude": 19.050030153209224
-            }
+            "latitude": 49.80247716478286,
+            "longitude": 19.050030153209224
         },
         {
             "name": "Cinema City Bydgoszcz",
             "address": "Jagiellońska 39/47, 85-097 Bydgoszcz",
-            "contact": {
-                "phone": "+48 22 241 92 22",
-                "email": "https://www.cinema-city.pl/kontakt"
-            },
+            "phone": "+48 22 241 92 22",
+            "email": "https://www.cinema-city.pl/kontakt",
             "schedule_link": "https://www.cinema-city.pl/kina/bydgoszcz",
             "imax_technology": false,
-            "location": {
-                "latitude": 53.12535102845733,
-                "longitude": 18.018166868704267 
-            }
+            "latitude": 53.12535102845733,
+            "longitude": 18.018166868704267 
         },
         {
             "name": "Cinema City Bytom",
             "address": "Centrum Handlowe Agora, plac Tadeusza Kościuszki 1, 41-902 Bytom",
-            "contact": {
-                "phone": "+48 324 939 606",
-                "email": "https://www.cinema-city.pl/kontakt"
-            },
+            "phone": "+48 324 939 606",
+            "email": "https://www.cinema-city.pl/kontakt",
             "schedule_link": "https://www.cinema-city.pl/kina/bytom",
             "imax_technology": false,
-            "location": {
-                "latitude": 50.34737747494929, 
-                "longitude": 18.919306555082276
-            }
+            "latitude": 50.34737747494929, 
+            "longitude": 18.919306555082276
         },
         {
             "name": "Cinema City Cieszyn",
             "address": "Wojciecha Korfantego 23, 43-400 Cieszyn",
-            "contact": {
-                "phone": "+48 222 419 222",
-                "email": "https://www.cinema-city.pl/kontakt"
-            },
+            "phone": "+48 222 419 222",
+            "email": "https://www.cinema-city.pl/kontakt",
             "schedule_link": "https://www.cinema-city.pl/kina/cieszyn",
             "imax_technology": false,
-            "location": {
-                "latitude": 49.750161107317425, 
-                "longitude": 18.63971608204232
-            }
+            "latitude": 49.750161107317425, 
+            "longitude": 18.63971608204232
         },
         {
             "name": "Cinema City Częstochowa - Galeria Jurajska",
             "address": "Aleja Wojska Polskiego 207, 42-200 Częstochowa",
-            "contact": {
-                "phone": "+48 34 390 17 77",
-                "email": "https://www.cinema-city.pl/kontakt"
-            },
+            "phone": "+48 34 390 17 77",
+            "email": "https://www.cinema-city.pl/kontakt",
             "schedule_link": "https://www.cinema-city.pl/kina/jurajska",
             "imax_technology": false,
-            "location": {
-                "latitude": 50.807495748217185, 
-                "longitude": 19.131543271079916
-            }
+            "latitude": 50.807495748217185, 
+            "longitude": 19.131543271079916
         },
         {
             "name": "Cinema City Częstochowa - Wolność",
             "address": "Wolność, Aleja Tadeusza Kościuszki 5, 42-202 Częstochowa",
-            "contact": {
-                "phone": "+48 34 371 71 71",
-                "email": "https://www.cinema-city.pl/kontakt"
-            },
+            "phone": "+48 34 371 71 71",
+            "email": "https://www.cinema-city.pl/kontakt",
             "schedule_link": "https://www.cinema-city.pl/kina/wolnosc",
             "imax_technology": false,
-            "location": {
-                "latitude": 50.81319209906386, 
-                "longitude": 19.1181058281166 
-            }
+            "latitude": 50.81319209906386, 
+            "longitude": 19.1181058281166 
         },
         {
             "name": "Cinema City Elbląg",
             "address": "Teatralna 5, 82-300 Elbląg",
-            "contact": {
-                "phone": "+48 22 241 92 22",
-                "email": "https://www.cinema-city.pl/kontakt"
-            },
+            "phone": "+48 22 241 92 22",
+            "email": "https://www.cinema-city.pl/kontakt",
             "schedule_link": "https://www.cinema-city.pl/kina/elblag",
             "imax_technology": false,
-            "location": {
-                "latitude": 54.165810713731645, 
-                "longitude": 19.401347726424827  
-            }
+            "latitude": 54.165810713731645, 
+            "longitude": 19.401347726424827  
         },
         {
             "name": "Cinema City Gliwice",
             "address": "CH Forum, Lipowa 1, 44-100 Gliwice",
-            "contact": {
-                "phone": "+48 324 939 777",
-                "email": "https://www.cinema-city.pl/kontakt"
-            },
+            "phone": "+48 324 939 777",
+            "email": "https://www.cinema-city.pl/kontakt",
             "schedule_link": "https://www.cinema-city.pl/kina/gliwice",
             "imax_technology": false,
-            "location": {
-                "latitude": 50.30034091626717, 
-                "longitude": 18.682848183915738
-            }
+            "latitude": 50.30034091626717, 
+            "longitude": 18.682848183915738
         },
         {
             "name": "Cinema City IMAX Katowice - Punkt 44",
             "address": "Punkt 44, Gliwicka 44, 40-853 Katowice",
-            "contact": {
-                "phone": "+48 323 595 959",
-                "email": "https://www.cinema-city.pl/kontakt"
-            },
+            "phone": "+48 323 595 959",
+            "email": "https://www.cinema-city.pl/kontakt",
             "schedule_link": "https://www.cinema-city.pl/kina/punkt44",
             "imax_technology": true,
-            "location": {
-                "latitude": 50.262611323299616, 
-                "longitude": 19.00645508391401
-            }
+            "latitude": 50.262611323299616, 
+            "longitude": 19.00645508391401
         },
         {
             "name": "Cinema City Silesia",
             "address": "Silesia City Center, Chorzowska 107, 40-101 Katowice",
-            "contact": {
-                "phone": "+48 324 939 555",
-                "email": "https://www.cinema-city.pl/kontakt"
-            },
+            "phone": "+48 324 939 555",
+            "email": "https://www.cinema-city.pl/kontakt",
             "schedule_link": "https://www.cinema-city.pl/kina/silesia",
             "imax_technology": false,
-            "location": {
-                "latitude": 50.27044294907695, 
-                "longitude": 19.00162179740777
-            }
+            "latitude": 50.27044294907695, 
+            "longitude": 19.00162179740777
         },
         {
             "name": "Cinema City Kraków - Bonarka",
             "address": "CH Bonarka City Center, Henryka Kamieńskiego 11, 30-644 Kraków",
-            "contact": {
-                "phone": "+48 222 419 222",
-                "email": "https://www.cinema-city.pl/kontakt"
-            },
+            "phone": "+48 222 419 222",
+            "email": "https://www.cinema-city.pl/kontakt",
             "schedule_link": "https://www.cinema-city.pl/kina/bonarka",
             "imax_technology": false,
-            "location": {
-                "latitude": 50.027038151380495, 
-                "longitude": 19.94968433972576
-            }
+            "latitude": 50.027038151380495, 
+            "longitude": 19.94968433972576
         },
         {
             "name": "Cinema City Kraków - Galeria Kazimierz",
             "address": "Galeria Kazimierz, Podgórska 34, 31-536 Kraków",
-            "contact": {
-                "phone": "+48 122 545 454",
-                "email": "https://www.cinema-city.pl/kontakt"
-            },
+            "phone": "+48 122 545 454",
+            "email": "https://www.cinema-city.pl/kontakt",
             "schedule_link": "https://www.cinema-city.pl/kina/kazimierz",
             "imax_technology": false,
-            "location": {
-                "latitude": 50.05368276754853, 
-                "longitude": 19.95488826856248
-            }
+            "latitude": 50.05368276754853, 
+            "longitude": 19.95488826856248
         },
         {
             "name": "Cinema City IMAX Zakopianka",
             "address": "Zakopiańska 62, 30-418 Kraków",
-            "contact": {
-                "phone": "+48 122 959 595",
-                "email": "https://www.cinema-city.pl/kontakt"
-            },
+            "phone": "+48 122 959 595",
+            "email": "https://www.cinema-city.pl/kontakt",
             "schedule_link": "https://www.cinema-city.pl/kina/zakopianka",
             "imax_technology": true,
-            "location": {
-                "latitude": 50.01643953984991, 
-                "longitude": 19.930487897396365 
-            }
+            "latitude": 50.01643953984991, 
+            "longitude": 19.930487897396365 
         },
         {
             "name": "Cinema City Lublin - Felicity",
             "address": "Cinema City Felicity, al. Wincentego Witosa 32, 20-315 Lublin",
-            "contact": {
-                "phone": "+48 81 443 58 58",
-                "email": "https://www.cinema-city.pl/kontakt"
-            },
+            "phone": "+48 81 443 58 58",
+            "email": "https://www.cinema-city.pl/kontakt",
             "schedule_link": "https://www.cinema-city.pl/kina/felicity",
             "imax_technology": false,
-            "location": {
-                "latitude": 51.23207242452219, 
-                "longitude": 22.61445756861609
-            }
+            "latitude": 51.23207242452219, 
+            "longitude": 22.61445756861609
         },
         {
             "name": "Cinema City Lublin - Plaza",
             "address": "CH Plaza, Lipowa 13, 20-020 Lublin",
-            "contact": {
-                "phone": "+48 81 535 25 25",
-                "email": "https://www.cinema-city.pl/kontakt"
-            },
+            "phone": "+48 81 535 25 25",
+            "email": "https://www.cinema-city.pl/kontakt",
             "schedule_link": "https://www.cinema-city.pl/kina/lublinplaza",
             "imax_technology": false,
-            "location": {
-                "latitude": 51.244718398674436, 
-                "longitude": 22.55191792628773
-            }
+            "latitude": 51.244718398674436, 
+            "longitude": 22.55191792628773
         },
         {
             "name": "Cinema City Łódź - Manufaktura",
             "address": "CH Manufaktura, Drewnowska 58, 91-002 Łódź",
-            "contact": {
-                "phone": "+48 42 664 64 64",
-                "email": "https://www.cinema-city.pl/kontakt"
-            },
+            "phone": "+48 42 664 64 64",
+            "email": "https://www.cinema-city.pl/kontakt",
             "schedule_link": "https://www.cinema-city.pl/kina/manufaktura",
             "imax_technology": true,
-            "location": {
-                "latitude": 51.780957095842176, 
-                "longitude": 19.44878235756748
-            }
+            "latitude": 51.780957095842176, 
+            "longitude": 19.44878235756748
         },
         {
             "name": "Cinema City Poznań - Kinepolis",
             "address": "Kinepolis, Bolesława Krzywoustego 72, 61-144 Poznań",
-            "contact": {
-                "phone": "+48 61 871 56 00",
-                "email": "https://www.cinema-city.pl/kontakt"
-            },
+            "phone": "+48 61 871 56 00",
+            "email": "https://www.cinema-city.pl/kontakt",
             "schedule_link": "https://www.cinema-city.pl/kina/kinepolis",
             "imax_technology": false,
-            "location": {
-                "latitude": 52.37355362335944, 
-                "longitude": 16.98046461099799
-            }
+            "latitude": 52.37355362335944, 
+            "longitude": 16.98046461099799
         },
         {
             "name": "Cinema City Poznań - Plaza",
             "address": "CH Plaza, Drużbickiego 2, 61-693 Poznań",
-            "contact": {
-                "phone": "+48 61 662 62 62",
-                "email": "https://www.cinema-city.pl/kontakt"
-            },
+            "phone": "+48 61 662 62 62",
+            "email": "https://www.cinema-city.pl/kontakt",
             "schedule_link": "https://www.cinema-city.pl/kina/poznanplaza",
             "imax_technology": false,
-            "location": {
-                "latitude": 52.44214914826156, 
-                "longitude": 16.91954342877371
-            }
+            "latitude": 52.44214914826156, 
+            "longitude": 16.91954342877371
         },
         {
             "name": "Cinema City Ruda Śląska",
             "address": "1 Maja 310, 41-710 Ruda Śląska",
-            "contact": {
-                "phone": "+48 22 241 92 22",
-                "email": "https://www.cinema-city.pl/kontakt"
-            },
+            "phone": "+48 22 241 92 22",
+            "email": "https://www.cinema-city.pl/kontakt",
             "schedule_link": "https://www.cinema-city.pl/kina/rudaslaska",
             "imax_technology": false,
-            "location": {
-                "latitude": 50.27569856322832, 
-                "longitude": 18.865984537888433
-            }
+            "latitude": 50.27569856322832, 
+            "longitude": 18.865984537888433
         },
         {
             "name": "Cinema City Sosnowiec Plaza",
             "address": "Sosnowiec Plaza, Henryka Sienkiewicza 2, 41-400 Sosnowiec",
-            "contact": {
-                "phone": "+48 32 775 75 75",
-                "email": "https://www.cinema-city.pl/kontakt"
-            },
+            "phone": "+48 32 775 75 75",
+            "email": "https://www.cinema-city.pl/kontakt",
             "schedule_link": "https://www.cinema-city.pl/kina/sosnowiec",
             "imax_technology": false,
-            "location": {
-                "latitude": 50.275714449674, 
-                "longitude": 19.12714304158563
-            }
+            "latitude": 50.275714449674, 
+            "longitude": 19.12714304158563
         },
         {
             "name": "Cinema City Starogard Gdański",
             "address": "Galeria Neptun, Pomorska 7, 83-200 Starogard Gdański",
-            "contact": {
-                "phone": "+48 58 325 01 50",
-                "email": "https://www.cinema-city.pl/kontakt"
-            },
+            "phone": "+48 58 325 01 50",
+            "email": "https://www.cinema-city.pl/kontakt",
             "schedule_link": "https://www.cinema-city.pl/kina/starogard",
             "imax_technology": false,
-            "location": {
-                "latitude": 53.96451097026724, 
-                "longitude": 18.528644153402098
-            }
+            "latitude": 53.96451097026724, 
+            "longitude": 18.528644153402098
         },
         {
             "name": "Cinema City Toruń - Czerwona Droga",
             "address": "Czerwona Droga 1/6, 87-100 Toruń",
-            "contact": {
-                "phone": "+48 56 664 64 64",
-                "email": "https://www.cinema-city.pl/kontakt"
-            },
+            "phone": "+48 56 664 64 64",
+            "email": "https://www.cinema-city.pl/kontakt",
             "schedule_link": "https://www.cinema-city.pl/kina/czerwonadroga",
             "imax_technology": false,
-            "location": {
-                "latitude": 53.015276807677694, 
-                "longitude": 18.600237726370104
-            }
+            "latitude": 53.015276807677694, 
+            "longitude": 18.600237726370104
         },
         {
             "name": "Cinema City Toruń - Plaza",
             "address": "Plaza, Broniewskiego 90, 87-100 Toruń",
-            "contact": {
-                "phone": "+48 22 241 92 22",
-                "email": "https://www.cinema-city.pl/kontakt"
-            },
+            "phone": "+48 22 241 92 22",
+            "email": "https://www.cinema-city.pl/kontakt",
             "schedule_link": "https://www.cinema-city.pl/kina/torunplaza",
             "imax_technology": false,
-            "location": {
-                "latitude": 53.01602441434767, 
-                "longitude": 18.561302566850447 
-            }
+            "latitude": 53.01602441434767, 
+            "longitude": 18.561302566850447 
         },
         {
             "name": "Cinema City Wałbrzych",
             "address": "Galeria Victoria, 1 Maja 64, 58-300 Wałbrzych",
-            "contact": {
-                "phone": "+48 74 648 48 48",
-                "email": "https://www.cinema-city.pl/kontakt"
-            },
+            "phone": "+48 74 648 48 48",
+            "email": "https://www.cinema-city.pl/kontakt",
             "schedule_link": "https://www.cinema-city.pl/kina/walbrzych",
             "imax_technology": false,
-            "location": {
-                "latitude": 50.76711301450461, 
-                "longitude": 16.2656027685948
-            }
+            "latitude": 50.76711301450461, 
+            "longitude": 16.2656027685948
         },
         {
             "name": "Cinema City Warszawa - Arkadia",
             "address": "al. Jana Pawła II 82, 00-175 Warszawa",
-            "contact": {
-                "phone": "+48 22 321 21 21",
-                "email": "https://www.cinema-city.pl/kontakt"
-            },
+            "phone": "+48 22 321 21 21",
+            "email": "https://www.cinema-city.pl/kontakt",
             "schedule_link": "https://www.cinema-city.pl/kina/arkadia",
             "imax_technology": false,
-            "location": {
-                "latitude": 52.25723918367676, 
-                "longitude": 20.98454843982802
-            }
+            "latitude": 52.25723918367676, 
+            "longitude": 20.98454843982802
         },
         {
             "name": "Cinema City Warszawa - Bemowo",
             "address": "Galeria Bemowo, Powstańców Śląskich 126A, 01-466 Warszawa",
-            "contact": {
-                "phone": "+48 22 241 95 19",
-                "email": "https://www.cinema-city.pl/kontakt"
-            },
+            "phone": "+48 22 241 95 19",
+            "email": "https://www.cinema-city.pl/kontakt",
             "schedule_link": "https://www.cinema-city.pl/kina/bemowo",
             "imax_technology": false,
-            "location": {
-                "latitude": 52.26590485870823,
-                "longitude": 20.932834039828464
-            }
+            "latitude": 52.26590485870823,
+            "longitude": 20.932834039828464
         },
         {
             "name": "Cinema City Warszawa - Białołęka",
             "address": "Białołęka Galeria Północna, Światowida 17, 03-144 Warszawa",
-            "contact": {
-                "phone": "+48 22 241 92 22",
-                "email": "https://www.cinema-city.pl/kontakt"
-            },
+            "phone": "+48 22 241 92 22",
+            "email": "https://www.cinema-city.pl/kontakt",
             "schedule_link": "https://www.cinema-city.pl/kina/galeriapolnocna",
             "imax_technology": false,
-            "location": {
-                "latitude": 52.318658785246804, 
-                "longitude": 20.9670413711314
-            }
+            "latitude": 52.318658785246804, 
+            "longitude": 20.9670413711314
         },
         {
             "name": "Cinema City Warszawa - Mokotów ",
             "address": "Wołoska 12, 02-675 Warszawa",
-            "contact": {
-                "phone": "+48 22 456 65 02",
-                "email": "https://www.cinema-city.pl/kontakt"
-            },
+            "phone": "+48 22 456 65 02",
+            "email": "https://www.cinema-city.pl/kontakt",
             "schedule_link": "https://www.cinema-city.pl/kina/mokotow",
             "imax_technology": false,
-            "location": {
-                "latitude": 52.179152576158366, 
-                "longitude": 21.004201597495417
-            }
+            "latitude": 52.179152576158366, 
+            "longitude": 21.004201597495417
         },
         {
             "name": "Cinema City Warszawa - Promenada",
             "address": "Ostrobramska 75C, 04-175 Warszawa",
-            "contact": {
-                "phone": "+48 22 241 90 90",
-                "email": "https://www.cinema-city.pl/kontakt"
-            },
+            "phone": "+48 22 241 90 90",
+            "email": "https://www.cinema-city.pl/kontakt",
             "schedule_link": "https://www.cinema-city.pl/kina/promenada",
             "imax_technology": false,
-            "location": {
-                "latitude": 52.23168638065836, 
-                "longitude": 21.105382153320292
-            }
+            "latitude": 52.23168638065836, 
+            "longitude": 21.105382153320292
         },
         {
             "name": "Cinema City Warszawa - Sadyba",
             "address": "Powsińska 31, 02-903 Warszawa",
-            "contact": {
-                "phone": "+48 22 241 94 19",
-                "email": "https://www.cinema-city.pl/kontakt"
-            },
+            "phone": "+48 22 241 94 19",
+            "email": "https://www.cinema-city.pl/kontakt",
             "schedule_link": "https://www.cinema-city.pl/kina/sadyba",
             "imax_technology": false,
-            "location": {
-                "latitude": 52.18741782498665, 
-                "longitude": 21.06122031098915
-            }
+            "latitude": 52.18741782498665, 
+            "longitude": 21.06122031098915
         },
         {
             "name": "Cinema City Wrocław - Korona",
             "address": "CH Korona, Bolesława Krzywoustego 126C, 51-421 Wrocław",
-            "contact": {
-                "phone": "+48 71 323 60 00",
-                "email": "https://www.cinema-city.pl/kontakt"
-            },
+            "phone": "+48 71 323 60 00",
+            "email": "https://www.cinema-city.pl/kontakt",
             "schedule_link": "https://www.cinema-city.pl/kina/korona",
             "imax_technology": false,
-            "location": {
-                "latitude": 51.14228672095374, 
-                "longitude": 17.08910719929605
-            }
+            "latitude": 51.14228672095374, 
+            "longitude": 17.08910719929605
         },
         {
             "name": "Cinema City Zielona Góra",
             "address": "Focus Mall Zielona Góra, Wrocławska 17, 65-427 Zielona Góra",
-            "contact": {
-                "phone": "+48 68 321 01 10",
-                "email": "https://www.cinema-city.pl/kontakt"
-            },
+            "phone": "+48 68 321 01 10",
+            "email": "https://www.cinema-city.pl/kontakt",
             "schedule_link": "https://www.cinema-city.pl/kina/zielonagora",
             "imax_technology": false,
-            "location": {
-                "latitude": 51.93588539383726, 
-                "longitude": 15.511286497484118
-            }
+            "latitude": 51.93588539383726, 
+            "longitude": 15.511286497484118
         }
     ]
 }
