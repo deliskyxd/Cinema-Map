@@ -16,15 +16,23 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 )
 
+type Contact struct {
+	Phone string `json:"phone"`
+	Email string `json:"email"`
+}
+
+type Location struct {
+	Latitude  float64 `json:"latitude"`
+	Longitude float64 `json:"longitude"`
+}
+
 type Cinema struct {
-	Name            string  `json:"name"`
-	Address         string  `json:"address"`
-	Phone           string  `json:"phone"`
-	Email           string  `json:"email"`
-	Schedule_Link   string  `json:"schedule_link"`
-	Imax_Technology bool    `json:"imax_technology"`
-	Latitude        float64 `json:"latitude"`
-	Longitude       float64 `json:"longitude"`
+	Name          string   `json:"name"`
+	Address       string   `json:"address"`
+	Contact       Contact  `json:"contact"`
+	Schedule_Link string   `json:"schedule_link"`
+	Imax          bool     `json:"imax_technology"`
+	Location      Location `json:"location"`
 }
 
 //func marshal(cinema Cinema) ([]byte, error) {
@@ -41,14 +49,23 @@ func getCinemas(name string) []Cinema {
 	if err != nil {
 		panic(err.Error())
 	}
-	for results.Next() {
-		// for each row, scan the result into our tag composite object
-		err = results.Scan(&cinema.Name, &cinema.Address, &cinema.Phone, &cinema.Email, &cinema.Schedule_Link, &cinema.Imax_Technology, &cinema.Latitude, &cinema.Longitude)
-		if err != nil {
-			panic(err.Error()) // proper error handling instead of panic in your app
-		}
-		cinemas = append(cinemas, cinema)
+	defer results.Close()
 
+	for results.Next() {
+		var phone, email string
+		var latitude, longitude float64
+		var imax int // tinyint is read into an int in Go
+
+		err := results.Scan(&cinema.Name, &cinema.Address, &phone, &email, &cinema.Schedule_Link, &imax, &latitude, &longitude)
+		if err != nil {
+			panic(err)
+		}
+
+		cinema.Contact = Contact{Phone: phone, Email: email}
+		cinema.Imax = imax == 1
+		cinema.Location = Location{Latitude: latitude, Longitude: longitude}
+
+		cinemas = append(cinemas, cinema)
 	}
 	// return the cinema
 	return cinemas
@@ -63,7 +80,6 @@ func main() {
 	// start the web server
 	server := http.NewServeMux()
 
-	// get all cinemas
 	server.HandleFunc("/cinemas/helios", func(w http.ResponseWriter, r *http.Request) {
 		fmt.Println("GET /cinemas/helios")
 		var cinemas []Cinema
@@ -75,7 +91,6 @@ func main() {
 		fmt.Fprintf(w, string(encoding))
 	})
 
-	// get a cinema by name
 	server.HandleFunc("/cinemas/multikino", func(w http.ResponseWriter, r *http.Request) {
 		fmt.Println("GET /cinemas/multikino")
 		var cinemas []Cinema
@@ -96,6 +111,23 @@ func main() {
 			fmt.Println(err)
 		}
 		fmt.Fprintf(w, string(encoding))
+	})
+
+	// get all cinemas
+	server.HandleFunc("/cinemas", func(w http.ResponseWriter, r *http.Request) {
+		keys := []string{"helios", "multikino", "cinema_city"}
+
+		allCinemas := make(map[string][]Cinema)
+		for i := 0; i < len(keys); i++ {
+			cinemas := getCinemas(keys[i])
+			allCinemas[keys[i]] = cinemas
+		}
+
+		jsonData, err := json.MarshalIndent(allCinemas, "", "    ")
+		if err != nil {
+			panic(err)
+		}
+		fmt.Fprintf(w, string(jsonData))
 	})
 
 	server.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {

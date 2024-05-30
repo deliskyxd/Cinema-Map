@@ -39,6 +39,7 @@ map.on("pointermove", function (e) {
 });
 
 const jsonFilePath = "./data/cinemas.json";
+//const jsonFilePath = "./data/cinemas.json";
 
 const initializeMap = async () => {
   const result = await createCinemaFeatures(map, jsonFilePath);
