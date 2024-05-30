@@ -38,8 +38,8 @@ map.on("pointermove", function (e) {
   map.getTarget().style.cursor = hit ? "pointer" : "";
 });
 
-const jsonFilePath = "./data/cinemas.json";
 //const jsonFilePath = "./data/cinemas.json";
+const jsonFilePath = "localhost:8080/cinemas";
 
 const initializeMap = async () => {
   const result = await createCinemaFeatures(map, jsonFilePath);

@@ -88,7 +88,8 @@ func main() {
 		if err != nil {
 			fmt.Println(err)
 		}
-		fmt.Fprintf(w, string(encoding))
+		w.Header().Set("Content-Type", "application/json")
+		w.Write(encoding)
 	})
 
 	server.HandleFunc("/cinemas/multikino", func(w http.ResponseWriter, r *http.Request) {
@@ -99,7 +100,8 @@ func main() {
 		if err != nil {
 			fmt.Println(err)
 		}
-		fmt.Fprintf(w, string(encoding))
+		w.Header().Set("Content-Type", "application/json")
+		w.Write(encoding)
 	})
 
 	server.HandleFunc("/cinemas/cinemacity", func(w http.ResponseWriter, r *http.Request) {
@@ -110,10 +112,10 @@ func main() {
 		if err != nil {
 			fmt.Println(err)
 		}
-		fmt.Fprintf(w, string(encoding))
+		w.Header().Set("Content-Type", "application/json")
+		w.Write(encoding)
 	})
 
-	// get all cinemas
 	server.HandleFunc("/cinemas", func(w http.ResponseWriter, r *http.Request) {
 		keys := []string{"helios", "multikino", "cinema_city"}
 
@@ -127,7 +129,8 @@ func main() {
 		if err != nil {
 			panic(err)
 		}
-		fmt.Fprintf(w, string(jsonData))
+		w.Header().Set("Content-Type", "application/json")
+		w.Write(jsonData)
 	})
 
 	server.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
