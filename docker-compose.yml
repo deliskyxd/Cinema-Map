@@ -5,6 +5,8 @@ services:
         - "8080:8080"
     depends_on:
       - db
+    links:
+      - db:database
   db:
     image: mysql 
     environment:
@@ -13,7 +15,7 @@ services:
     volumes:
       - db-data:/var/lib/mysql
     ports:
-        - 3307:3306
+        - 3306:3306
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
     ports:

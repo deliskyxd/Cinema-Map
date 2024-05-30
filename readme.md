@@ -1,15 +1,4 @@
-# TO-DO:
-- [x] create a mysql database to store the database (docker-compose)
-- [ ] create a table to store the cinemas data
-
-- [x] create a golang server (Dockerfile)
-- [ ] make an endpoint in golang that returns the cinemas data in json format (GET /cinemas)
-## optional:
-- [ ] pass a ready OpenLayers build to the golang server (?)
-
----
-
-# Overview ( for now )
+# Overview
 
 To run the app simply run the following command:
 ```bash
