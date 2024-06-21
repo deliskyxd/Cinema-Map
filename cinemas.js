@@ -13,12 +13,29 @@ import { Vector as VectorSource, Cluster } from "ol/source";
 import VectorLayer from "ol/layer/Vector";
 import { getCinemaName } from "./functions";
 
+async function fetchCinemas() {
+    const url = 'http://localhost:8080/cinemas';
+    try {
+        const response = await fetch(url);
+        if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        const data = await response.json();
+        return data;
+    } catch (error) {
+        console.error('Error fetching data:', error);
+    }
+}
+
 const createCinemaFeatures = async (map, jsonFilePath) => {
   const allCinemas = [];
   let allCinemasLayer;
   try {
-    const response = await fetch(jsonFilePath);
-    const data = await response.json();
+    //const response = await fetch(jsonFilePath);
+    //const data = await response.json();
+
+    const data = await fetchCinemas(); 
+
     const cinemaNames = Object.keys(data);
     const allCinemaFeatures = [];
 

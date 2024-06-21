@@ -39,10 +39,10 @@ map.on("pointermove", function (e) {
 });
 
 //const jsonFilePath = "./data/cinemas.json";
-const jsonFilePath = "localhost:8080/cinemas";
+const url = 'http://localhost:8080/cinemas.json';
 
 const initializeMap = async () => {
-  const result = await createCinemaFeatures(map, jsonFilePath);
+  const result = await createCinemaFeatures(map, url);
   createPopup(map);
   initializeGeolocation(map);
 
